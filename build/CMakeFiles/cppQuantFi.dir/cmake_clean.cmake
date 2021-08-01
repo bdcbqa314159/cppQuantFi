@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o"
   "CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o.d"
+  "CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o"
+  "CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o.d"
+  "CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o"
+  "CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o.d"
   "CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o"
   "CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o.d"
   "CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o"

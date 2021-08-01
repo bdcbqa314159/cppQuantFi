@@ -83,10 +83,38 @@ CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp -o CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.s
 
+CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o: ../cpp/src/norm.cpp
+CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o -MF CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o.d -o CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp
+
+CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp > CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.i
+
+CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp -o CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.s
+
+CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o: ../cpp/src/vanillaOption.cpp
+CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o -MF CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o.d -o CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp
+
+CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp > CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.i
+
+CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp -o CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.s
+
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o: ../python/cppQuantFi.cpp
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o -MF CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o.d -o CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/python/cppQuantFi.cpp
 
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.s: cmake_force
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o: ../python/cppqf.cpp
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o -MF CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o.d -o CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/python/cppqf.cpp
 
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.i: cmake_force
@@ -114,6 +142,8 @@ CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.s: cmake_force
 # Object files for target cppQuantFi
 cppQuantFi_OBJECTS = \
 "CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o"
 
@@ -121,11 +151,13 @@ cppQuantFi_OBJECTS = \
 cppQuantFi_EXTERNAL_OBJECTS =
 
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o
+cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o
+cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/build.make
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module cppQuantFi.cpython-38-darwin.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared module cppQuantFi.cpython-38-darwin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppQuantFi.dir/link.txt --verbose=$(VERBOSE)
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -x /Users/bernardocohen/repos/cppQuantFi/build/cppQuantFi.cpython-38-darwin.so
 

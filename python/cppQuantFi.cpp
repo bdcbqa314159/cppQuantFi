@@ -3,6 +3,7 @@
 namespace py = pybind11;
 
 void init_say(py::module &);
+void init_vanilla_option(py::module &);
 
 namespace cppqf {
 
@@ -11,6 +12,7 @@ PYBIND11_MODULE(cppQuantFi, m) {
     m.doc() = "Workouts based on the book C++ for quantitative finance by Michael L. Halls-Moore";
 
     init_say(m);
+    init_vanilla_option(m);
 
 	}
 

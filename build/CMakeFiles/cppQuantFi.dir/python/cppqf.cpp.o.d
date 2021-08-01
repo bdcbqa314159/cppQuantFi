@@ -224,6 +224,7 @@ CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /Users/bernardocohen/repos/cppQuantFi/python/../cpp/include/cppQuantFi_bits/vanillaOption.hpp \
   /usr/local/include/pybind11/pybind11.h \
   /usr/local/include/pybind11/attr.h /usr/local/include/pybind11/cast.h \
   /usr/local/include/pybind11/pytypes.h \

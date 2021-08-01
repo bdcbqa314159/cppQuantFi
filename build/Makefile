@@ -198,6 +198,54 @@ cpp/src/intro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.s
 .PHONY : cpp/src/intro.cpp.s
 
+cpp/src/norm.o: cpp/src/norm.cpp.o
+.PHONY : cpp/src/norm.o
+
+# target to build an object file
+cpp/src/norm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o
+.PHONY : cpp/src/norm.cpp.o
+
+cpp/src/norm.i: cpp/src/norm.cpp.i
+.PHONY : cpp/src/norm.i
+
+# target to preprocess a source file
+cpp/src/norm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.i
+.PHONY : cpp/src/norm.cpp.i
+
+cpp/src/norm.s: cpp/src/norm.cpp.s
+.PHONY : cpp/src/norm.s
+
+# target to generate assembly for a file
+cpp/src/norm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.s
+.PHONY : cpp/src/norm.cpp.s
+
+cpp/src/vanillaOption.o: cpp/src/vanillaOption.cpp.o
+.PHONY : cpp/src/vanillaOption.o
+
+# target to build an object file
+cpp/src/vanillaOption.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o
+.PHONY : cpp/src/vanillaOption.cpp.o
+
+cpp/src/vanillaOption.i: cpp/src/vanillaOption.cpp.i
+.PHONY : cpp/src/vanillaOption.i
+
+# target to preprocess a source file
+cpp/src/vanillaOption.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.i
+.PHONY : cpp/src/vanillaOption.cpp.i
+
+cpp/src/vanillaOption.s: cpp/src/vanillaOption.cpp.s
+.PHONY : cpp/src/vanillaOption.s
+
+# target to generate assembly for a file
+cpp/src/vanillaOption.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.s
+.PHONY : cpp/src/vanillaOption.cpp.s
+
 python/cppQuantFi.o: python/cppQuantFi.cpp.o
 .PHONY : python/cppQuantFi.o
 
@@ -262,6 +310,12 @@ help:
 	@echo "... cpp/src/intro.o"
 	@echo "... cpp/src/intro.i"
 	@echo "... cpp/src/intro.s"
+	@echo "... cpp/src/norm.o"
+	@echo "... cpp/src/norm.i"
+	@echo "... cpp/src/norm.s"
+	@echo "... cpp/src/vanillaOption.o"
+	@echo "... cpp/src/vanillaOption.i"
+	@echo "... cpp/src/vanillaOption.s"
 	@echo "... python/cppQuantFi.o"
 	@echo "... python/cppQuantFi.i"
 	@echo "... python/cppQuantFi.s"

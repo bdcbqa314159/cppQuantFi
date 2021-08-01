@@ -1,24 +1,22 @@
-#include <quantFiOop>
+#include <cppQuantFi>
 #include <iostream>
 #include <string>
 
 int testingVanillaOption(){
     
-    vanillaOption s();
+    VanillaOption s;
+    
+    std::cout<<"call price: "<<std::endl;
+    std::cout<<s.calc_call_price()<<std::endl;
+    
+    std::cout<<"put price: "<<std::endl;
+    std::cout<<s.calc_put_price()<<std::endl;
     
     
     return 0;
 }
 
-
-
-
-
 int main() {
-    std::cout<<say("Hello")<<std::endl;
-    
-    int x{};
-    std::cout<<x++<<std::endl;
-    std::cout<<x<<std::endl;
+    testingVanillaOption();
     return 0;
 }

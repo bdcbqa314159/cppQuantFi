@@ -19,7 +19,11 @@ set(PROJECT_INCLUDE_DIR "include/cppQuantFi_bits")
 # Source files
 set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/intro.hpp
+    ${PROJECT_INCLUDE_DIR}/vanillaOption.hpp
+    ${PROJECT_INCLUDE_DIR}/norm.hpp
     ${PROJECT_SOURCE_DIR}/intro.cpp
+    ${PROJECT_SOURCE_DIR}/vanillaOption.cpp
+    ${PROJECT_SOURCE_DIR}/norm.cpp
 )
 
 # Set up such that XCode organizes the files correctly

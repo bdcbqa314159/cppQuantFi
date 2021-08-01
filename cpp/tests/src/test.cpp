@@ -2,6 +2,18 @@
 #include <iostream>
 #include <string>
 
+int testingVanillaOption(){
+    
+    vanillaOption s();
+    
+    
+    return 0;
+}
+
+
+
+
+
 int main() {
     std::cout<<say("Hello")<<std::endl;
     

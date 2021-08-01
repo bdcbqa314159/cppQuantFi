@@ -198,6 +198,54 @@ src/intro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/intro.cpp.s
 .PHONY : src/intro.cpp.s
 
+src/norm.o: src/norm.cpp.o
+.PHONY : src/norm.o
+
+# target to build an object file
+src/norm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/norm.cpp.o
+.PHONY : src/norm.cpp.o
+
+src/norm.i: src/norm.cpp.i
+.PHONY : src/norm.i
+
+# target to preprocess a source file
+src/norm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/norm.cpp.i
+.PHONY : src/norm.cpp.i
+
+src/norm.s: src/norm.cpp.s
+.PHONY : src/norm.s
+
+# target to generate assembly for a file
+src/norm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/norm.cpp.s
+.PHONY : src/norm.cpp.s
+
+src/vanillaOption.o: src/vanillaOption.cpp.o
+.PHONY : src/vanillaOption.o
+
+# target to build an object file
+src/vanillaOption.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/vanillaOption.cpp.o
+.PHONY : src/vanillaOption.cpp.o
+
+src/vanillaOption.i: src/vanillaOption.cpp.i
+.PHONY : src/vanillaOption.i
+
+# target to preprocess a source file
+src/vanillaOption.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/vanillaOption.cpp.i
+.PHONY : src/vanillaOption.cpp.i
+
+src/vanillaOption.s: src/vanillaOption.cpp.s
+.PHONY : src/vanillaOption.s
+
+# target to generate assembly for a file
+src/vanillaOption.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/vanillaOption.cpp.s
+.PHONY : src/vanillaOption.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,6 +262,12 @@ help:
 	@echo "... src/intro.o"
 	@echo "... src/intro.i"
 	@echo "... src/intro.s"
+	@echo "... src/norm.o"
+	@echo "... src/norm.i"
+	@echo "... src/norm.s"
+	@echo "... src/vanillaOption.o"
+	@echo "... src/vanillaOption.i"
+	@echo "... src/vanillaOption.s"
 .PHONY : help
 
 

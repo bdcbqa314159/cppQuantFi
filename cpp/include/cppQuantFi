@@ -2,5 +2,7 @@
 #define CPPQUANTFI_H
 
 #include "cppQuantFi_bits/intro.hpp"
+#include "cppQuantFi_bits/norm.hpp"
+#include "cppQuantFi_bits/vanillaOption.hpp"
 
 #endif

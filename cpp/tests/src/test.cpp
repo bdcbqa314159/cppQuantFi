@@ -16,7 +16,20 @@ int testingVanillaOption(){
     return 0;
 }
 
+
+int testingPayOffs(){
+    
+    PayOffCall call(90);
+    
+    std::cout<<call(190)<<std::endl;
+    
+    
+    return 0;
+}
+
+
 int main() {
     testingVanillaOption();
+    testingPayOffs();
     return 0;
 }

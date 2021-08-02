@@ -111,11 +111,56 @@ CMakeFiles/cppQuantFi.dir/src/norm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/norm.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp -o CMakeFiles/cppQuantFi.dir/src/norm.cpp.s
 
+CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o: ../src/payoffCall.cpp
+CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp
+
+CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp > CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp -o CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.s
+
+CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o: ../src/payoffPut.cpp
+CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp
+
+CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp > CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp -o CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.s
+
+CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o: ../src/payoffDoubleDigital.cpp
+CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp
+
+CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp > CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp -o CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.s
+
 # Object files for target cppQuantFi
 cppQuantFi_OBJECTS = \
 "CMakeFiles/cppQuantFi.dir/src/intro.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/src/vanillaOption.cpp.o" \
-"CMakeFiles/cppQuantFi.dir/src/norm.cpp.o"
+"CMakeFiles/cppQuantFi.dir/src/norm.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o"
 
 # External object files for target cppQuantFi
 cppQuantFi_EXTERNAL_OBJECTS =
@@ -123,9 +168,12 @@ cppQuantFi_EXTERNAL_OBJECTS =
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/intro.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/vanillaOption.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/norm.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/build.make
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcppQuantFi.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library libcppQuantFi.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppQuantFi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

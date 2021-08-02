@@ -1,7 +1,7 @@
 CMakeFiles/test.dir/src/test.cpp.o: \
   /Users/bernardocohen/repos/cppQuantFi/cpp/tests/src/test.cpp \
-  /usr/local/include/quantFiOop \
-  /usr/local/include/quantFiOop_bits/intro.hpp \
+  /usr/local/include/cppQuantFi \
+  /usr/local/include/cppQuantFi_bits/intro.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -224,4 +224,13 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference \
+  /usr/local/include/cppQuantFi_bits/norm.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
+  /usr/local/include/cppQuantFi_bits/vanillaOption.hpp \
+  /usr/local/include/cppQuantFi_bits/payoff.hpp \
+  /usr/local/include/cppQuantFi_bits/payoffCall.hpp \
+  /usr/local/include/cppQuantFi_bits/./payoff.hpp \
+  /usr/local/include/cppQuantFi_bits/payoffPut.hpp \
+  /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp

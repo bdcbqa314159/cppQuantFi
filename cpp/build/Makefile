@@ -222,6 +222,78 @@ src/norm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/norm.cpp.s
 .PHONY : src/norm.cpp.s
 
+src/payoffCall.o: src/payoffCall.cpp.o
+.PHONY : src/payoffCall.o
+
+# target to build an object file
+src/payoffCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.o
+.PHONY : src/payoffCall.cpp.o
+
+src/payoffCall.i: src/payoffCall.cpp.i
+.PHONY : src/payoffCall.i
+
+# target to preprocess a source file
+src/payoffCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.i
+.PHONY : src/payoffCall.cpp.i
+
+src/payoffCall.s: src/payoffCall.cpp.s
+.PHONY : src/payoffCall.s
+
+# target to generate assembly for a file
+src/payoffCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffCall.cpp.s
+.PHONY : src/payoffCall.cpp.s
+
+src/payoffDoubleDigital.o: src/payoffDoubleDigital.cpp.o
+.PHONY : src/payoffDoubleDigital.o
+
+# target to build an object file
+src/payoffDoubleDigital.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o
+.PHONY : src/payoffDoubleDigital.cpp.o
+
+src/payoffDoubleDigital.i: src/payoffDoubleDigital.cpp.i
+.PHONY : src/payoffDoubleDigital.i
+
+# target to preprocess a source file
+src/payoffDoubleDigital.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.i
+.PHONY : src/payoffDoubleDigital.cpp.i
+
+src/payoffDoubleDigital.s: src/payoffDoubleDigital.cpp.s
+.PHONY : src/payoffDoubleDigital.s
+
+# target to generate assembly for a file
+src/payoffDoubleDigital.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.s
+.PHONY : src/payoffDoubleDigital.cpp.s
+
+src/payoffPut.o: src/payoffPut.cpp.o
+.PHONY : src/payoffPut.o
+
+# target to build an object file
+src/payoffPut.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o
+.PHONY : src/payoffPut.cpp.o
+
+src/payoffPut.i: src/payoffPut.cpp.i
+.PHONY : src/payoffPut.i
+
+# target to preprocess a source file
+src/payoffPut.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.i
+.PHONY : src/payoffPut.cpp.i
+
+src/payoffPut.s: src/payoffPut.cpp.s
+.PHONY : src/payoffPut.s
+
+# target to generate assembly for a file
+src/payoffPut.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.s
+.PHONY : src/payoffPut.cpp.s
+
 src/vanillaOption.o: src/vanillaOption.cpp.o
 .PHONY : src/vanillaOption.o
 
@@ -265,6 +337,15 @@ help:
 	@echo "... src/norm.o"
 	@echo "... src/norm.i"
 	@echo "... src/norm.s"
+	@echo "... src/payoffCall.o"
+	@echo "... src/payoffCall.i"
+	@echo "... src/payoffCall.s"
+	@echo "... src/payoffDoubleDigital.o"
+	@echo "... src/payoffDoubleDigital.i"
+	@echo "... src/payoffDoubleDigital.s"
+	@echo "... src/payoffPut.o"
+	@echo "... src/payoffPut.i"
+	@echo "... src/payoffPut.s"
 	@echo "... src/vanillaOption.o"
 	@echo "... src/vanillaOption.i"
 	@echo "... src/vanillaOption.s"

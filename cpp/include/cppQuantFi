@@ -4,5 +4,9 @@
 #include "cppQuantFi_bits/intro.hpp"
 #include "cppQuantFi_bits/norm.hpp"
 #include "cppQuantFi_bits/vanillaOption.hpp"
+#include "cppQuantFi_bits/payoff.hpp"
+#include "cppQuantFi_bits/payoffCall.hpp"
+#include "cppQuantFi_bits/payoffPut.hpp"
+#include "cppQuantFi_bits/payoffDoubleDigital.hpp"
 
 #endif

@@ -27,6 +27,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/payoffDoubleDigital.hpp
     ${PROJECT_INCLUDE_DIR}/matrix.hpp
     ${PROJECT_INCLUDE_DIR}/functors.hpp
+    ${PROJECT_INCLUDE_DIR}/qsMatrix.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/vanillaOption.cpp

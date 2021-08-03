@@ -230,8 +230,29 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/cppQuantFi_bits/norm.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
-  /usr/local/include/cppQuantFi_bits/vanillaOption.hpp
+  /usr/local/include/cppQuantFi_bits/vanillaOption.hpp \
+  /usr/local/include/cppQuantFi_bits/payoff.hpp \
+  /usr/local/include/cppQuantFi_bits/payoffCall.hpp \
+  /usr/local/include/cppQuantFi_bits/payoff.hpp \
+  /usr/local/include/cppQuantFi_bits/payoffPut.hpp \
+  /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp \
+  /usr/local/include/cppQuantFi_bits/matrix.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /usr/local/include/cppQuantFi_bits/functors.hpp
 
+
+/usr/local/include/cppQuantFi_bits/functors.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector:
+
+/usr/local/include/cppQuantFi_bits/matrix.hpp:
+
+/usr/local/include/cppQuantFi_bits/payoffPut.hpp:
+
+/usr/local/include/cppQuantFi_bits/payoff.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h:
 
@@ -565,6 +586,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_locale.h:
 
+/usr/local/include/cppQuantFi_bits/payoffCall.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stdexcept:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
@@ -678,6 +701,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/wchar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ctype.h:
+
+/usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config:
 

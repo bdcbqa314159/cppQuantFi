@@ -8,5 +8,7 @@
 #include "cppQuantFi_bits/payoffCall.hpp"
 #include "cppQuantFi_bits/payoffPut.hpp"
 #include "cppQuantFi_bits/payoffDoubleDigital.hpp"
+#include "cppQuantFi_bits/matrix.hpp"
+#include "cppQuantFi_bits/functors.hpp"
 
 #endif

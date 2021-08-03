@@ -1,6 +1,6 @@
 #include "../cpp/include/cppQuantFi_bits/intro.hpp"
-
 #include "../cpp/include/cppQuantFi_bits/vanillaOption.hpp"
+#include "../cpp/include/cppQuantFi_bits/matrix.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -26,5 +26,13 @@ void init_vanilla_option(py::module &m){
             .def("getsigma", &VanillaOption::getsigma)
             .def("calc_call_price", &VanillaOption::calc_call_price)
             .def("calc_put_price", &VanillaOption::calc_put_price);
+}
+
+void init_matrix(py::module &m){
+    
+    py::class_<Matrix<double>>(m, "Matrix")
+            .def(py::init<>())
+            .def(py::init<const int&, const int&, const double&>())
+            .def("get_mat", &Matrix<double>::get_mat);
 }
 

@@ -25,12 +25,16 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/payoffCall.hpp
     ${PROJECT_INCLUDE_DIR}/payoffPut.hpp
     ${PROJECT_INCLUDE_DIR}/payoffDoubleDigital.hpp
+    ${PROJECT_INCLUDE_DIR}/matrix.hpp
+    ${PROJECT_INCLUDE_DIR}/functors.hpp
+    
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/vanillaOption.cpp
     ${PROJECT_SOURCE_DIR}/norm.cpp
     ${PROJECT_SOURCE_DIR}/payoffCall.cpp
     ${PROJECT_SOURCE_DIR}/payoffPut.cpp
     ${PROJECT_SOURCE_DIR}/payoffDoubleDigital.cpp
+    
 )
 
 # Set up such that XCode organizes the files correctly

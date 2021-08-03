@@ -174,6 +174,30 @@ cppQuantFi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/build
 .PHONY : cppQuantFi/fast
 
+cpp/src/free.o: cpp/src/free.cpp.o
+.PHONY : cpp/src/free.o
+
+# target to build an object file
+cpp/src/free.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o
+.PHONY : cpp/src/free.cpp.o
+
+cpp/src/free.i: cpp/src/free.cpp.i
+.PHONY : cpp/src/free.i
+
+# target to preprocess a source file
+cpp/src/free.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.i
+.PHONY : cpp/src/free.cpp.i
+
+cpp/src/free.s: cpp/src/free.cpp.s
+.PHONY : cpp/src/free.s
+
+# target to generate assembly for a file
+cpp/src/free.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.s
+.PHONY : cpp/src/free.cpp.s
+
 cpp/src/intro.o: cpp/src/intro.cpp.o
 .PHONY : cpp/src/intro.o
 
@@ -221,6 +245,78 @@ cpp/src/norm.s: cpp/src/norm.cpp.s
 cpp/src/norm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.s
 .PHONY : cpp/src/norm.cpp.s
+
+cpp/src/payoffCall.o: cpp/src/payoffCall.cpp.o
+.PHONY : cpp/src/payoffCall.o
+
+# target to build an object file
+cpp/src/payoffCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffCall.cpp.o
+.PHONY : cpp/src/payoffCall.cpp.o
+
+cpp/src/payoffCall.i: cpp/src/payoffCall.cpp.i
+.PHONY : cpp/src/payoffCall.i
+
+# target to preprocess a source file
+cpp/src/payoffCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffCall.cpp.i
+.PHONY : cpp/src/payoffCall.cpp.i
+
+cpp/src/payoffCall.s: cpp/src/payoffCall.cpp.s
+.PHONY : cpp/src/payoffCall.s
+
+# target to generate assembly for a file
+cpp/src/payoffCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffCall.cpp.s
+.PHONY : cpp/src/payoffCall.cpp.s
+
+cpp/src/payoffDoubleDigital.o: cpp/src/payoffDoubleDigital.cpp.o
+.PHONY : cpp/src/payoffDoubleDigital.o
+
+# target to build an object file
+cpp/src/payoffDoubleDigital.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffDoubleDigital.cpp.o
+.PHONY : cpp/src/payoffDoubleDigital.cpp.o
+
+cpp/src/payoffDoubleDigital.i: cpp/src/payoffDoubleDigital.cpp.i
+.PHONY : cpp/src/payoffDoubleDigital.i
+
+# target to preprocess a source file
+cpp/src/payoffDoubleDigital.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffDoubleDigital.cpp.i
+.PHONY : cpp/src/payoffDoubleDigital.cpp.i
+
+cpp/src/payoffDoubleDigital.s: cpp/src/payoffDoubleDigital.cpp.s
+.PHONY : cpp/src/payoffDoubleDigital.s
+
+# target to generate assembly for a file
+cpp/src/payoffDoubleDigital.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffDoubleDigital.cpp.s
+.PHONY : cpp/src/payoffDoubleDigital.cpp.s
+
+cpp/src/payoffPut.o: cpp/src/payoffPut.cpp.o
+.PHONY : cpp/src/payoffPut.o
+
+# target to build an object file
+cpp/src/payoffPut.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.o
+.PHONY : cpp/src/payoffPut.cpp.o
+
+cpp/src/payoffPut.i: cpp/src/payoffPut.cpp.i
+.PHONY : cpp/src/payoffPut.i
+
+# target to preprocess a source file
+cpp/src/payoffPut.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.i
+.PHONY : cpp/src/payoffPut.cpp.i
+
+cpp/src/payoffPut.s: cpp/src/payoffPut.cpp.s
+.PHONY : cpp/src/payoffPut.s
+
+# target to generate assembly for a file
+cpp/src/payoffPut.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.s
+.PHONY : cpp/src/payoffPut.cpp.s
 
 cpp/src/vanillaOption.o: cpp/src/vanillaOption.cpp.o
 .PHONY : cpp/src/vanillaOption.o
@@ -307,12 +403,24 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... cppQuantFi"
+	@echo "... cpp/src/free.o"
+	@echo "... cpp/src/free.i"
+	@echo "... cpp/src/free.s"
 	@echo "... cpp/src/intro.o"
 	@echo "... cpp/src/intro.i"
 	@echo "... cpp/src/intro.s"
 	@echo "... cpp/src/norm.o"
 	@echo "... cpp/src/norm.i"
 	@echo "... cpp/src/norm.s"
+	@echo "... cpp/src/payoffCall.o"
+	@echo "... cpp/src/payoffCall.i"
+	@echo "... cpp/src/payoffCall.s"
+	@echo "... cpp/src/payoffDoubleDigital.o"
+	@echo "... cpp/src/payoffDoubleDigital.i"
+	@echo "... cpp/src/payoffDoubleDigital.s"
+	@echo "... cpp/src/payoffPut.o"
+	@echo "... cpp/src/payoffPut.i"
+	@echo "... cpp/src/payoffPut.s"
 	@echo "... cpp/src/vanillaOption.o"
 	@echo "... cpp/src/vanillaOption.i"
 	@echo "... cpp/src/vanillaOption.s"

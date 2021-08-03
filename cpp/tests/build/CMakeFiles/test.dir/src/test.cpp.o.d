@@ -233,4 +233,8 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/cppQuantFi_bits/payoffCall.hpp \
   /usr/local/include/cppQuantFi_bits/./payoff.hpp \
   /usr/local/include/cppQuantFi_bits/payoffPut.hpp \
-  /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp
+  /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp \
+  /usr/local/include/cppQuantFi_bits/matrix.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /usr/local/include/cppQuantFi_bits/functors.hpp

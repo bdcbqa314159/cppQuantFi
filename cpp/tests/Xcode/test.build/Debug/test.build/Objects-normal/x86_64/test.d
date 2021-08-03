@@ -8,4 +8,6 @@ dependencies: \
   /usr/local/include/cppQuantFi_bits/payoffCall.hpp \
   /usr/local/include/cppQuantFi_bits/./payoff.hpp \
   /usr/local/include/cppQuantFi_bits/payoffPut.hpp \
-  /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp
+  /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp \
+  /usr/local/include/cppQuantFi_bits/matrix.hpp \
+  /usr/local/include/cppQuantFi_bits/functors.hpp

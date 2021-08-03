@@ -2,7 +2,7 @@
   "buildCommand" : "build",
   "configuredTargets" : [
     {
-      "guid" : "4fb654d4d66c184ac8318b767559ffd700cc39da004c298db66105d6c1cee46e"
+      "guid" : "91476dd612b06e9503f76a08e6b0c3343ab96ae6eb818f904b7e75f09dd9226f"
     }
   ],
   "continueBuildingAfterErrors" : false,
@@ -26,9 +26,9 @@
       "buildIntermediatesPath" : "",
       "buildProductsPath" : "",
       "derivedDataPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData",
-      "indexDataStoreFolderPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-cieylypjwzdqtufvehedjgoeobtv/Index/DataStore",
+      "indexDataStoreFolderPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/cppQuantFi-efsemusoywkspxaczwqwcmqogphs/Index/DataStore",
       "indexEnableDataStore" : true,
-      "indexPCHPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-cieylypjwzdqtufvehedjgoeobtv/Index/PrecompiledHeaders",
+      "indexPCHPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/cppQuantFi-efsemusoywkspxaczwqwcmqogphs/Index/PrecompiledHeaders",
       "pchPath" : ""
     },
     "configurationName" : "Debug",

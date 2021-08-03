@@ -2,7 +2,7 @@
   "buildCommand" : "build",
   "configuredTargets" : [
     {
-      "guid" : "4fb654d4d66c184ac8318b767559ffd700cc39da004c298db66105d6c1cee46e"
+      "guid" : "4fb654d4d66c184ac8318b767559ffd764ff82f796da423e83b4beed94edbc24"
     }
   ],
   "continueBuildingAfterErrors" : false,

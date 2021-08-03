@@ -239,8 +239,11 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/cppQuantFi_bits/matrix.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  /usr/local/include/cppQuantFi_bits/functors.hpp
+  /usr/local/include/cppQuantFi_bits/functors.hpp \
+  /usr/local/include/cppQuantFi_bits/qsMatrix.hpp
 
+
+/usr/local/include/cppQuantFi_bits/qsMatrix.hpp:
 
 /usr/local/include/cppQuantFi_bits/functors.hpp:
 

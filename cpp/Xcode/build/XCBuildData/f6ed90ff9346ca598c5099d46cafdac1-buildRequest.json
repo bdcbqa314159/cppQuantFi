@@ -1,11 +1,11 @@
 {
-  "buildCommand" : "build",
+  "buildCommand" : "prepareForIndexing",
   "configuredTargets" : [
     {
-      "guid" : "4fb654d4d66c184ac8318b767559ffd700cc39da004c298db66105d6c1cee46e"
+      "guid" : "91476dd612b06e9503f76a08e6b0c334590c353a50c19fd7b7458316aba44b82"
     }
   ],
-  "continueBuildingAfterErrors" : false,
+  "continueBuildingAfterErrors" : true,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
   "parameters" : {
@@ -26,9 +26,9 @@
       "buildIntermediatesPath" : "",
       "buildProductsPath" : "",
       "derivedDataPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData",
-      "indexDataStoreFolderPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-cieylypjwzdqtufvehedjgoeobtv/Index/DataStore",
+      "indexDataStoreFolderPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/cppQuantFi-efsemusoywkspxaczwqwcmqogphs/Index/DataStore",
       "indexEnableDataStore" : true,
-      "indexPCHPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/test-cieylypjwzdqtufvehedjgoeobtv/Index/PrecompiledHeaders",
+      "indexPCHPath" : "/Users/bernardocohen/Library/Developer/Xcode/DerivedData/cppQuantFi-efsemusoywkspxaczwqwcmqogphs/Index/PrecompiledHeaders",
       "pchPath" : ""
     },
     "configurationName" : "Debug",
@@ -40,10 +40,11 @@
       }
     }
   },
+  "qos" : "default",
   "schemeCommand" : "launch",
   "shouldCollectMetrics" : false,
   "showNonLoggedProgress" : true,
-  "useDryRun" : false,
+  "useDryRun" : true,
   "useImplicitDependencies" : true,
   "useLegacyBuildLocations" : false,
   "useParallelTargets" : true

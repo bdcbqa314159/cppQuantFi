@@ -215,16 +215,62 @@ int testingThomasAlgorithm(){
     return 0;
 }
 
-int main() {
-    testingVanillaOption();
-    testingPayOffs();
-    testingMatrix();
-    testingFunctors();
-    testingQSMatrix();
-    testingEigen();
-    testingEigenLU();
+int testingEigenCholesky(){
     
-    testingThomasAlgorithm();
+    
+    typedef Eigen::Matrix<double, 4,4> Matrix4x4;
+    
+    Matrix4x4 p;
+    
+    p<<6,3,4,8,
+    3,6,5,1,
+    4,5,10,7,
+    8,1,7,25;
+    
+    std::cout<<"p=\n"<<p<<"\n\n";
+    Eigen::LLT<Matrix4x4> llt(p);
+    
+    Matrix4x4 l = llt.matrixL();
+    
+    std::cout<<"L Matrix:\n"<<l<<"\n\n";
+    Matrix4x4 u = l.transpose();
+    std::cout<<"L^T Matrix:\n:"<<u<<"\n\n";
+    
+    std::cout<<"LL^T Matrix:\n"<<l*u<<"\n\n";
+    
+    return 0;
+}
+
+int testingEigenQR(){
+    
+    Eigen::MatrixXf p(3,3);
+    
+    p<<12,-51,4,
+    6,167,-68,
+    -4,24,-41;
+    
+    std::cout<<"Matrix p:\n"<<p<<"\n\n";
+    
+    Eigen::HouseholderQR<Eigen::MatrixXf> qr(p);
+    Eigen::MatrixXf q = qr.householderQ();
+    
+    std::cout<<"Matrix q:\n"<<q<<"\n\n";
+    
+    return 0;
+}
+
+int main() {
+//    testingVanillaOption();
+//    testingPayOffs();
+//    testingMatrix();
+//    testingFunctors();
+//    testingQSMatrix();
+//    testingEigen();
+//    testingEigenLU();
+//
+//    testingThomasAlgorithm();
+    testingEigenCholesky();
+    testingEigenQR();
     
     return 0;
 }

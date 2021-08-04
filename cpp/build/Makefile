@@ -294,6 +294,30 @@ src/payoffPut.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.s
 .PHONY : src/payoffPut.cpp.s
 
+src/thomasAlgorithm.o: src/thomasAlgorithm.cpp.o
+.PHONY : src/thomasAlgorithm.o
+
+# target to build an object file
+src/thomasAlgorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/thomasAlgorithm.cpp.o
+.PHONY : src/thomasAlgorithm.cpp.o
+
+src/thomasAlgorithm.i: src/thomasAlgorithm.cpp.i
+.PHONY : src/thomasAlgorithm.i
+
+# target to preprocess a source file
+src/thomasAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/thomasAlgorithm.cpp.i
+.PHONY : src/thomasAlgorithm.cpp.i
+
+src/thomasAlgorithm.s: src/thomasAlgorithm.cpp.s
+.PHONY : src/thomasAlgorithm.s
+
+# target to generate assembly for a file
+src/thomasAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/thomasAlgorithm.cpp.s
+.PHONY : src/thomasAlgorithm.cpp.s
+
 src/vanillaOption.o: src/vanillaOption.cpp.o
 .PHONY : src/vanillaOption.o
 
@@ -346,6 +370,9 @@ help:
 	@echo "... src/payoffPut.o"
 	@echo "... src/payoffPut.i"
 	@echo "... src/payoffPut.s"
+	@echo "... src/thomasAlgorithm.o"
+	@echo "... src/thomasAlgorithm.i"
+	@echo "... src/thomasAlgorithm.s"
 	@echo "... src/vanillaOption.o"
 	@echo "... src/vanillaOption.i"
 	@echo "... src/vanillaOption.s"

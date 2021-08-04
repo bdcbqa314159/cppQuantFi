@@ -28,6 +28,7 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/matrix.hpp
     ${PROJECT_INCLUDE_DIR}/functors.hpp
     ${PROJECT_INCLUDE_DIR}/qsMatrix.hpp
+    ${PROJECT_INCLUDE_DIR}/thomasAlgorithm.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/vanillaOption.cpp
@@ -35,6 +36,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/payoffCall.cpp
     ${PROJECT_SOURCE_DIR}/payoffPut.cpp
     ${PROJECT_SOURCE_DIR}/payoffDoubleDigital.cpp
+    ${PROJECT_SOURCE_DIR}/thomasAlgorithm.cpp
     
 )
 

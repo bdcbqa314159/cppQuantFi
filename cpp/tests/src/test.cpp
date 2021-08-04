@@ -138,6 +138,83 @@ int testingEigen(){
     return 0;
 }
 
+int testingEigenLU(){
+    
+    typedef Eigen::Matrix<double, 4,4> Matrix4x4;
+    
+    Matrix4x4 p;
+    
+    p<<7,3,-1,2,
+    3,8,1,-4,
+    -1,1,4,-1,
+    2,-4,-1,6;
+    
+    std::cout<<"\n===========\n";
+    std::cout<<"P=\n"<<p<<std::endl<<std::endl;
+    Eigen::PartialPivLU<Matrix4x4> lu(p);
+    
+    std::cout<<"LU Matrix:\n"<<lu.matrixLU()<<std::endl<<std::endl;
+    
+    Matrix4x4 l = Eigen::MatrixXd::Identity(4,4);
+    l.block<4,4>(0,0).triangularView<Eigen::StrictlyLower>() = lu.matrixLU();
+    
+    std::cout<<"L Matrix:\n"<<l<<std::endl<<std::endl;
+    Matrix4x4 u = lu.matrixLU().triangularView<Eigen::Upper>();
+    std::cout<<"R Matrix:\n"<<u<<"\n\n";
+    
+    
+    return 0;
+}
+
+int testingThomasAlgorithm(){
+    
+    size_t N = 13;
+    
+    double delta_x = 1.0/ static_cast<double>(N);
+    
+    double delta_t = 0.001;
+    
+    double r = delta_t/(delta_x*delta_x);
+    
+    std::vector<double> a(N-1, -r/2.);
+    std::vector<double> b(N, 1.+r);
+    std::vector<double> c(N-1, -r/2.);
+    std::vector<double> d(N,0);
+    std::vector<double> f(N,0);
+    
+    f.at(5) = 1; f.at(6) = 2; f.at(7) = 1;
+    
+    std::cout<<"f = (";
+    
+    for (int i=0; i<N; i++){
+        std::cout<<f.at(i);
+        if (i<N-1){
+            std::cout<<", ";
+        }
+    }
+    
+    std::cout<<")\n\n";
+    
+    for (int i=1; i<N-1; i++){
+        d.at(i) = r*0.5*f.at(i+1)+(1.-r)*f.at(i)+r*0.5*f.at(i-1);
+    }
+    
+    thomas_algorithm(a, b, c, d, f);
+    
+    std::cout<<"f = (";
+    
+    for (int i=0; i<N; i++){
+        std::cout<<f.at(i);
+        if (i<N-1){
+            std::cout<<", ";
+        }
+    }
+    
+    std::cout<<")\n\n";
+    
+    return 0;
+}
+
 int main() {
     testingVanillaOption();
     testingPayOffs();
@@ -145,6 +222,9 @@ int main() {
     testingFunctors();
     testingQSMatrix();
     testingEigen();
+    testingEigenLU();
+    
+    testingThomasAlgorithm();
     
     return 0;
 }

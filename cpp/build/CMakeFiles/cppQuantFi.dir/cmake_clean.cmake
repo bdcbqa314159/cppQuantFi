@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cppQuantFi.dir/src/payoffDoubleDigital.cpp.o.d"
   "CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o"
   "CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.o.d"
+  "CMakeFiles/cppQuantFi.dir/src/thomasAlgorithm.cpp.o"
+  "CMakeFiles/cppQuantFi.dir/src/thomasAlgorithm.cpp.o.d"
   "CMakeFiles/cppQuantFi.dir/src/vanillaOption.cpp.o"
   "CMakeFiles/cppQuantFi.dir/src/vanillaOption.cpp.o.d"
   "libcppQuantFi.dylib"

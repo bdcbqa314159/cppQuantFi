@@ -11,6 +11,8 @@
 #include "cppQuantFi_bits/matrix.hpp"
 #include "cppQuantFi_bits/functors.hpp"
 #include "cppQuantFi_bits/qsMatrix.hpp"
+#include "cppQuantFi_bits/thomasAlgorithm.hpp"
 #include <eigen3/Eigen/Dense>
+#include <eigen3/Eigen/LU>
 
 #endif

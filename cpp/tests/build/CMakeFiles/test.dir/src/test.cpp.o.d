@@ -239,6 +239,7 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /usr/local/include/cppQuantFi_bits/functors.hpp \
   /usr/local/include/cppQuantFi_bits/qsMatrix.hpp \
+  /usr/local/include/cppQuantFi_bits/thomasAlgorithm.hpp \
   /usr/local/include/eigen3/Eigen/Dense \
   /usr/local/include/eigen3/Eigen/Core \
   /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \

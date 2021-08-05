@@ -296,6 +296,141 @@ int testingEurOptMC(){
     return 0;
 }
 
+
+int testingEurOptGreeksBS(){
+    
+    double S = 100.;
+    double K = 100.;
+    double r = 0.05;
+    double v = 0.2;
+    double T = 1.0;
+    
+    double call = call_price(S,K,r,v,T);
+    double put = put_price(S,K,r,v,T);
+    
+    std::cout<<"call : "<<call<<std::endl;
+    std::cout<<"put : "<<put<<std::endl;
+    
+    double call_delta_ = call_delta(S, K, r, v, T);
+    double call_gamma_ = call_gamma(S, K, r, v, T);
+    double call_vega_ = call_vega(S, K, r, v, T);
+    double call_theta_ = call_theta(S, K, r, v, T);
+    double call_rho_ = call_rho(S, K, r, v, T);
+    
+    double put_delta_ = put_delta(S, K, r, v, T);
+    double put_gamma_ = put_gamma(S, K, r, v, T);
+    double put_vega_ = put_vega(S, K, r, v, T);
+    double put_theta_ = put_theta(S, K, r, v, T);
+    double put_rho_ = put_rho(S, K, r, v, T);
+    
+    std::cout<<"==================\n";
+    
+    std::cout<< "Underlying : "<<S<<std::endl;
+    std::cout<< "Strike : "<<K<<std::endl;
+    std::cout<< "Risk-Free Rate : "<<r<<std::endl;
+    std::cout<< "Volatility : "<<v<<std::endl;
+    std::cout<< "Maturity : "<<T<<std::endl;
+    
+    std::cout<<"==================\n";
+    
+    std::cout<<"Greeks for call :\n";
+    std::cout<< "delta : "<<call_delta_<<std::endl;
+    std::cout<< "gamma : "<<call_gamma_<<std::endl;
+    std::cout<< "vega: "<<call_vega_<<std::endl;
+    std::cout<< "theta : "<<call_theta_<<std::endl;
+    std::cout<< "rho : "<<call_rho_<<std::endl;
+    
+    std::cout<<"==================\n";
+    
+    std::cout<<"Greeks for put :\n";
+    std::cout<< "delta : "<<put_delta_<<std::endl;
+    std::cout<< "gamma : "<<put_gamma_<<std::endl;
+    std::cout<< "vega: "<<put_vega_<<std::endl;
+    std::cout<< "theta : "<<put_theta_<<std::endl;
+    std::cout<< "rho : "<<put_rho_<<std::endl;
+
+    
+    double delta = 0.001;
+    
+    double call_delta_fdm_ = call_delta_fdm(S, K, r, v, T,delta);
+    double call_gamma_fdm_  = call_gamma_fdm(S, K, r, v, T,delta);
+    double call_vega_fdm_  = call_vega_fdm(S, K, r, v, T,delta);
+    double call_theta_fdm_  = call_theta_fdm(S, K, r, v, T,delta);
+    double call_rho_fdm_  = call_rho_fdm(S, K, r, v, T,delta);
+    
+    double put_delta_fdm_  = put_delta_fdm (S, K, r, v, T,delta);
+    double put_gamma_fdm_  = put_gamma_fdm(S, K, r, v, T,delta);
+    double put_vega_fdm_  = put_vega_fdm(S, K, r, v, T,delta);
+    double put_theta_fdm_  = put_theta_fdm(S, K, r, v, T,delta);
+    double put_rho_fdm_  = put_rho_fdm(S, K, r, v, T,delta);
+    
+    std::cout<<"==================\n";
+    
+    std::cout<<"Greeks for call with fdm :\n";
+    std::cout<< "delta : "<<call_delta_fdm_ <<std::endl;
+    std::cout<< "gamma : "<<call_gamma_fdm_ <<std::endl;
+    std::cout<< "vega: "<<call_vega_fdm_ <<std::endl;
+    std::cout<< "theta : "<<call_theta_fdm_ <<std::endl;
+    std::cout<< "rho : "<<call_rho_fdm_ <<std::endl;
+    
+    std::cout<<"==================\n";
+    
+    std::cout<<"Greeks for put with fdm :\n";
+    std::cout<< "delta : "<<put_delta_fdm_ <<std::endl;
+    std::cout<< "gamma : "<<put_gamma_fdm_ <<std::endl;
+    std::cout<< "vega: "<<put_vega_fdm_ <<std::endl;
+    std::cout<< "theta : "<<put_theta_fdm_ <<std::endl;
+    std::cout<< "rho : "<<put_rho_fdm_ <<std::endl;
+    
+    return 0;
+}
+
+
+int testing_call_GreeksMC(){
+    
+    
+    std::cout<<"Monte Carlo Greeks :) =============\n";
+    int num_sims = 100000000;
+    double delta = 0.0001;
+    double S = 100.;
+    double K = 100.;
+    double r = 0.05;
+    double v = 0.2;
+    double T = 1.0;
+    
+    double call = monte_carlo_call_price(num_sims,S,K,r,v,T);
+//    double put = monte_carlo_put_price(num_sims,S,K,r,v,T);
+    
+    std::cout<<"Number of sims : "<<num_sims<<std::endl;
+    std::cout<<"call : "<<call<<std::endl;
+    
+    double Sp;
+    double Sm;
+    double Rp;
+    double Vp;
+    double Tp;
+    double S_;
+    
+    double dS;
+    double ddS;
+    double dR;
+    double dT;
+    double dV;
+    
+    monte_carlo_call_price(num_sims, S, K, r, v,T, delta, Sp,S_,Sm,Rp,Vp,Tp);
+    
+    monte_carlo_call_greeks(delta,Sp, S_,Sm,Rp,Vp, Tp, dS,ddS, dR,dV,dT);
+    
+    std::cout<<"Greeks for call with MC :\n";
+    std::cout<< "delta : "<<dS <<std::endl;
+    std::cout<< "gamma : "<<ddS<<std::endl;
+    std::cout<< "vega: "<<dV <<std::endl;
+    std::cout<< "theta : "<<dT <<std::endl;
+    std::cout<< "rho : "<<dR <<std::endl;
+    
+    return 0;
+}
+
 int main() {
 //    testingVanillaOption();
 //    testingPayOffs();
@@ -308,8 +443,11 @@ int main() {
 //    testingThomasAlgorithm();
 //    testingEigenCholesky();
 //    testingEigenQR();
-    testingEurOptBS();
-    testingEurOptMC();
+//    testingEurOptBS();
+//    testingEurOptMC();
+    
+    testingEurOptGreeksBS();
+    testing_call_GreeksMC();
     
     return 0;
 }

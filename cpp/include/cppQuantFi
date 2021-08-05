@@ -12,6 +12,7 @@
 #include "cppQuantFi_bits/functors.hpp"
 #include "cppQuantFi_bits/qsMatrix.hpp"
 #include "cppQuantFi_bits/thomasAlgorithm.hpp"
+#include "cppQuantFi_bits/eurOptionBSMC.hpp"
 #include <eigen3/Eigen/Dense>
 #include <eigen3/Eigen/LU>
 

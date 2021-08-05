@@ -1,6 +1,7 @@
 #include "../cpp/include/cppQuantFi_bits/intro.hpp"
 #include "../cpp/include/cppQuantFi_bits/vanillaOption.hpp"
 #include "../cpp/include/cppQuantFi_bits/matrix.hpp"
+#include "../cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp"
 
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -34,5 +35,25 @@ void init_matrix(py::module &m){
             .def(py::init<>())
             .def(py::init<const int&, const int&, const double&>())
             .def("get_mat", &Matrix<double>::get_mat);
+}
+
+void init_call_price(py::module &m){
+    
+    m.def("call_price", &call_price);
+}
+
+void init_put_price(py::module &m){
+
+    m.def("put_price", &put_price);
+}
+
+void init_monte_carlo_call_price(py::module &m){
+
+    m.def("monte_carlo_call_price", &monte_carlo_call_price);
+}
+
+void init_monte_carlo_put_price(py::module &m){
+
+    m.def("monte_carlo_put_price", &monte_carlo_put_price);
 }
 

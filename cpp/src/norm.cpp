@@ -1,6 +1,6 @@
 #include "../include/cppQuantFi_bits/norm.hpp"
 
-double N(double x){
+double N(const double &x){
     
     double gamma = 0.2316419 ;
     double a1 = 0.319381530;
@@ -19,3 +19,25 @@ double N(double x){
     else
         return 1.0-N(-x);
 }
+
+double norm_pdf(const double &x){
+    double pi = 3.14159;
+    return (1./(pow(2*pi, 0.5)))*exp(-0.5*x*x);
+}
+
+double gaussian_box_muller(){
+    
+    double x = 0;
+    double y = 0;
+    
+    double eucl_sq = 0;
+    
+    do {
+        x = 2.*rand()/static_cast<double>(RAND_MAX)-1;
+        y = 2.*rand()/static_cast<double>(RAND_MAX)-1;
+        eucl_sq = x*x+y*y;
+    }while(eucl_sq >= 1.);
+    
+    return x*sqrt(-2.*log(eucl_sq)/eucl_sq);
+}
+

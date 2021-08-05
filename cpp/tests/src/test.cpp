@@ -259,6 +259,43 @@ int testingEigenQR(){
     return 0;
 }
 
+int testingEurOptBS(){
+    
+    double S = 100.;
+    double K = 100.;
+    double r = 0.05;
+    double v = 0.2;
+    double T = 1.0;
+    
+    double call = call_price(S,K,r,v,T);
+    double put = put_price(S,K,r,v,T);
+    
+    std::cout<<"call : "<<call<<std::endl;
+    std::cout<<"put : "<<put<<std::endl;
+    
+    
+    return 0;
+}
+
+int testingEurOptMC(){
+    
+    int num_sims = 10000000;
+    double S = 100.;
+    double K = 100.;
+    double r = 0.05;
+    double v = 0.2;
+    double T = 1.0;
+    
+    double call = monte_carlo_call_price(num_sims,S,K,r,v,T);
+    double put = monte_carlo_put_price(num_sims,S,K,r,v,T);
+    
+    std::cout<<"Number of sims : "<<num_sims<<std::endl;
+    std::cout<<"call : "<<call<<std::endl;
+    std::cout<<"put : "<<put<<std::endl;
+    
+    return 0;
+}
+
 int main() {
 //    testingVanillaOption();
 //    testingPayOffs();
@@ -269,8 +306,10 @@ int main() {
 //    testingEigenLU();
 //
 //    testingThomasAlgorithm();
-    testingEigenCholesky();
-    testingEigenQR();
+//    testingEigenCholesky();
+//    testingEigenQR();
+    testingEurOptBS();
+    testingEurOptMC();
     
     return 0;
 }

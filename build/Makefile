@@ -174,29 +174,29 @@ cppQuantFi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/build
 .PHONY : cppQuantFi/fast
 
-cpp/src/free.o: cpp/src/free.cpp.o
-.PHONY : cpp/src/free.o
+cpp/src/eurOptionBSMC.o: cpp/src/eurOptionBSMC.cpp.o
+.PHONY : cpp/src/eurOptionBSMC.o
 
 # target to build an object file
-cpp/src/free.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o
-.PHONY : cpp/src/free.cpp.o
+cpp/src/eurOptionBSMC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o
+.PHONY : cpp/src/eurOptionBSMC.cpp.o
 
-cpp/src/free.i: cpp/src/free.cpp.i
-.PHONY : cpp/src/free.i
+cpp/src/eurOptionBSMC.i: cpp/src/eurOptionBSMC.cpp.i
+.PHONY : cpp/src/eurOptionBSMC.i
 
 # target to preprocess a source file
-cpp/src/free.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.i
-.PHONY : cpp/src/free.cpp.i
+cpp/src/eurOptionBSMC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.i
+.PHONY : cpp/src/eurOptionBSMC.cpp.i
 
-cpp/src/free.s: cpp/src/free.cpp.s
-.PHONY : cpp/src/free.s
+cpp/src/eurOptionBSMC.s: cpp/src/eurOptionBSMC.cpp.s
+.PHONY : cpp/src/eurOptionBSMC.s
 
 # target to generate assembly for a file
-cpp/src/free.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.s
-.PHONY : cpp/src/free.cpp.s
+cpp/src/eurOptionBSMC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.s
+.PHONY : cpp/src/eurOptionBSMC.cpp.s
 
 cpp/src/intro.o: cpp/src/intro.cpp.o
 .PHONY : cpp/src/intro.o
@@ -318,6 +318,30 @@ cpp/src/payoffPut.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.s
 .PHONY : cpp/src/payoffPut.cpp.s
 
+cpp/src/thomasAlgorithm.o: cpp/src/thomasAlgorithm.cpp.o
+.PHONY : cpp/src/thomasAlgorithm.o
+
+# target to build an object file
+cpp/src/thomasAlgorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o
+.PHONY : cpp/src/thomasAlgorithm.cpp.o
+
+cpp/src/thomasAlgorithm.i: cpp/src/thomasAlgorithm.cpp.i
+.PHONY : cpp/src/thomasAlgorithm.i
+
+# target to preprocess a source file
+cpp/src/thomasAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.i
+.PHONY : cpp/src/thomasAlgorithm.cpp.i
+
+cpp/src/thomasAlgorithm.s: cpp/src/thomasAlgorithm.cpp.s
+.PHONY : cpp/src/thomasAlgorithm.s
+
+# target to generate assembly for a file
+cpp/src/thomasAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.s
+.PHONY : cpp/src/thomasAlgorithm.cpp.s
+
 cpp/src/vanillaOption.o: cpp/src/vanillaOption.cpp.o
 .PHONY : cpp/src/vanillaOption.o
 
@@ -403,9 +427,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... cppQuantFi"
-	@echo "... cpp/src/free.o"
-	@echo "... cpp/src/free.i"
-	@echo "... cpp/src/free.s"
+	@echo "... cpp/src/eurOptionBSMC.o"
+	@echo "... cpp/src/eurOptionBSMC.i"
+	@echo "... cpp/src/eurOptionBSMC.s"
 	@echo "... cpp/src/intro.o"
 	@echo "... cpp/src/intro.i"
 	@echo "... cpp/src/intro.s"
@@ -421,6 +445,9 @@ help:
 	@echo "... cpp/src/payoffPut.o"
 	@echo "... cpp/src/payoffPut.i"
 	@echo "... cpp/src/payoffPut.s"
+	@echo "... cpp/src/thomasAlgorithm.o"
+	@echo "... cpp/src/thomasAlgorithm.i"
+	@echo "... cpp/src/thomasAlgorithm.s"
 	@echo "... cpp/src/vanillaOption.o"
 	@echo "... cpp/src/vanillaOption.i"
 	@echo "... cpp/src/vanillaOption.s"

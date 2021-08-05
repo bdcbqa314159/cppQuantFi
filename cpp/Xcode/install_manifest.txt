@@ -9,6 +9,7 @@
 /usr/local/include/cppQuantFi_bits/intro.hpp
 /usr/local/include/cppQuantFi_bits/payoff.hpp
 /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp
+/usr/local/include/cppQuantFi_bits/eurOptionBSMC.hpp
 /usr/local/include/cppQuantFi_bits/norm.hpp
 /usr/local/include/cppQuantFi_bits/thomasAlgorithm.hpp
 /usr/local/include/cppQuantFi_bits/payoffCall.hpp

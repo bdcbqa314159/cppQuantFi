@@ -13,6 +13,8 @@ dependencies: \
   /usr/local/include/cppQuantFi_bits/functors.hpp \
   /usr/local/include/cppQuantFi_bits/qsMatrix.hpp \
   /usr/local/include/cppQuantFi_bits/thomasAlgorithm.hpp \
+  /usr/local/include/cppQuantFi_bits/eurOptionBSMC.hpp \
+  /usr/local/include/cppQuantFi_bits/./norm.hpp \
   /usr/local/include/eigen3/Eigen/Dense \
   /usr/local/include/eigen3/Eigen/Core \
   /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \

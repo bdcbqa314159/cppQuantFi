@@ -174,6 +174,30 @@ cppQuantFi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/build
 .PHONY : cppQuantFi/fast
 
+src/eurOptionBSMC.o: src/eurOptionBSMC.cpp.o
+.PHONY : src/eurOptionBSMC.o
+
+# target to build an object file
+src/eurOptionBSMC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.o
+.PHONY : src/eurOptionBSMC.cpp.o
+
+src/eurOptionBSMC.i: src/eurOptionBSMC.cpp.i
+.PHONY : src/eurOptionBSMC.i
+
+# target to preprocess a source file
+src/eurOptionBSMC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.i
+.PHONY : src/eurOptionBSMC.cpp.i
+
+src/eurOptionBSMC.s: src/eurOptionBSMC.cpp.s
+.PHONY : src/eurOptionBSMC.s
+
+# target to generate assembly for a file
+src/eurOptionBSMC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.s
+.PHONY : src/eurOptionBSMC.cpp.s
+
 src/intro.o: src/intro.cpp.o
 .PHONY : src/intro.o
 
@@ -355,6 +379,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... cppQuantFi"
+	@echo "... src/eurOptionBSMC.o"
+	@echo "... src/eurOptionBSMC.i"
+	@echo "... src/eurOptionBSMC.s"
 	@echo "... src/intro.o"
 	@echo "... src/intro.i"
 	@echo "... src/intro.s"

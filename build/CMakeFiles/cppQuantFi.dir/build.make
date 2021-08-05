@@ -69,19 +69,19 @@ include CMakeFiles/cppQuantFi.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cppQuantFi.dir/flags.make
 
-CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
-CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o: ../cpp/src/free.cpp
-CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o -MF CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o.d -o CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/free.cpp
+CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o: ../cpp/src/eurOptionBSMC.cpp
+CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o -MF CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o.d -o CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp
 
-CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/free.cpp > CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.i
+CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp > CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.i
 
-CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/free.cpp -o CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.s
+CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp -o CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.s
 
 CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
 CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o: ../cpp/src/intro.cpp
@@ -153,10 +153,24 @@ CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp -o CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.s
 
+CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o: ../cpp/src/thomasAlgorithm.cpp
+CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o -MF CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o.d -o CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp
+
+CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp > CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.i
+
+CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp -o CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.s
+
 CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
 CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o: ../cpp/src/vanillaOption.cpp
 CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o -MF CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o.d -o CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp
 
 CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.s: cmake_force
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o: ../python/cppQuantFi.cpp
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o -MF CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o.d -o CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/python/cppQuantFi.cpp
 
 CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.s: cmake_force
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o: ../python/cppqf.cpp
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o -MF CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o.d -o CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/python/cppqf.cpp
 
 CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.i: cmake_force
@@ -197,12 +211,13 @@ CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.s: cmake_force
 
 # Object files for target cppQuantFi
 cppQuantFi_OBJECTS = \
-"CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/cpp/src/payoffCall.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/cpp/src/payoffDoubleDigital.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o"
@@ -210,18 +225,19 @@ cppQuantFi_OBJECTS = \
 # External object files for target cppQuantFi
 cppQuantFi_EXTERNAL_OBJECTS =
 
-cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/free.cpp.o
+cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/eurOptionBSMC.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/intro.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/norm.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/payoffCall.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/payoffDoubleDigital.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/payoffPut.cpp.o
+cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/thomasAlgorithm.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/cpp/src/vanillaOption.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/python/cppQuantFi.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/python/cppqf.cpp.o
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/build.make
 cppQuantFi.cpython-38-darwin.so: CMakeFiles/cppQuantFi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared module cppQuantFi.cpython-38-darwin.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared module cppQuantFi.cpython-38-darwin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppQuantFi.dir/link.txt --verbose=$(VERBOSE)
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -x /Users/bernardocohen/repos/cppQuantFi/build/cppQuantFi.cpython-38-darwin.so
 

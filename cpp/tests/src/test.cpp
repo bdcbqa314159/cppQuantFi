@@ -390,7 +390,7 @@ int testing_call_GreeksMC(){
     
     
     std::cout<<"Monte Carlo Greeks :) =============\n";
-    int num_sims = 100000000;
+    int num_sims = 10000000;
     double delta = 0.0001;
     double S = 100.;
     double K = 100.;

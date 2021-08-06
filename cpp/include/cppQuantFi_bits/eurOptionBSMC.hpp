@@ -62,6 +62,9 @@ double put_theta_fdm(const double &S, const double &K, const double &r, const do
 
 void monte_carlo_call_price(const int &num_sims, const double &S, const double &K, const double &r, const double &v, const double &T, const double &delta, double &Sp,double &S_, double &Sm,  double &Rp, double &Vp, double &Tp);
 
+
+double monte_carlo_call_price(const int &num_sims, const double &S, const double &K, const double &r, const double &v, const double &T);
+
 void monte_carlo_call_greeks(const double &delta, double &Sp,double &S_, double &Sm,  double &Rp, double &Vp, double &Tp, double &dS, double &ddS, double &dR, double &dV, double &dT);
 
 #endif

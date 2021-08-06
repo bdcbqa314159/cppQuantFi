@@ -10,9 +10,9 @@ private:
     double D;
     
 public:
-    PayOffDoubleDigital(const double U, const double D);
+    PayOffDoubleDigital(const double& U, const double& D);
     virtual ~ PayOffDoubleDigital();
-    virtual double operator() (const double S) const;
+    virtual double operator() (const double& S) const;
 };
 
 #endif

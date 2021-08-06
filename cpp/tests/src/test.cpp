@@ -431,6 +431,48 @@ int testing_call_GreeksMC(){
     return 0;
 }
 
+int testingAsian(){
+    
+    int num_sims = 100000;
+    int num_intervals = 250;
+    double S = 30.0;
+    double K = 29.0;
+    double r = 0.08;
+    double v = 0.3;
+    double T = 1.0;
+    
+    std::vector<double> spot_prices(num_intervals, S);
+    
+    PayOff* pay_off_call = new PayOffCall(K);
+    
+    AsianOptionArithmetic asian(pay_off_call);
+    
+    double pay_off_sum = 0;
+    
+    for (int i = 0; i<num_sims; i++){
+        calc_path_spot_prices(spot_prices, r, v, T);
+        pay_off_sum += asian.pay_off_price(spot_prices);
+    }
+    
+    double discount_pay_off_avg = (pay_off_sum/static_cast<double>(num_sims))*exp(-r*T);
+    
+    delete pay_off_call;
+    std::cout<<"=========================\n";
+    
+    std::cout<<"Greeks for call with MC :\n";
+    std::cout<< "num Sims : "<<num_sims <<std::endl;
+    std::cout<< "num of intervals : "<<num_intervals<<std::endl;
+    std::cout<< "Underlying: "<<S <<std::endl;
+    std::cout<< "Strike : "<<K <<std::endl;
+    std::cout<< "risk free : "<<r <<std::endl;
+    std::cout<< "vol : "<<v <<std::endl;
+    std::cout<< "maturity : "<<T <<std::endl;
+    std::cout<< "Asian price : "<<discount_pay_off_avg <<std::endl;
+    
+    
+    return 0;
+}
+
 int main() {
 //    testingVanillaOption();
 //    testingPayOffs();
@@ -446,8 +488,9 @@ int main() {
 //    testingEurOptBS();
 //    testingEurOptMC();
     
-    testingEurOptGreeksBS();
-    testing_call_GreeksMC();
+    //testingEurOptGreeksBS();
+    //testing_call_GreeksMC();
+    testingAsian();
     
     return 0;
 }

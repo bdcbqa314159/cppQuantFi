@@ -9,9 +9,9 @@ private:
     double K;
     
 public:
-    PayOffPut(const double K);
+    PayOffPut(const double& K);
     virtual ~ PayOffPut();
-    virtual double operator() (const double S) const;
+    virtual double operator() (const double& S) const;
 };
 
 #endif

@@ -174,6 +174,30 @@ cppQuantFi/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/build
 .PHONY : cppQuantFi/fast
 
+src/asian.o: src/asian.cpp.o
+.PHONY : src/asian.o
+
+# target to build an object file
+src/asian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/asian.cpp.o
+.PHONY : src/asian.cpp.o
+
+src/asian.i: src/asian.cpp.i
+.PHONY : src/asian.i
+
+# target to preprocess a source file
+src/asian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/asian.cpp.i
+.PHONY : src/asian.cpp.i
+
+src/asian.s: src/asian.cpp.s
+.PHONY : src/asian.s
+
+# target to generate assembly for a file
+src/asian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/asian.cpp.s
+.PHONY : src/asian.cpp.s
+
 src/eurOptionBSMC.o: src/eurOptionBSMC.cpp.o
 .PHONY : src/eurOptionBSMC.o
 
@@ -245,6 +269,30 @@ src/norm.s: src/norm.cpp.s
 src/norm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/norm.cpp.s
 .PHONY : src/norm.cpp.s
+
+src/pathGeneration.o: src/pathGeneration.cpp.o
+.PHONY : src/pathGeneration.o
+
+# target to build an object file
+src/pathGeneration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/pathGeneration.cpp.o
+.PHONY : src/pathGeneration.cpp.o
+
+src/pathGeneration.i: src/pathGeneration.cpp.i
+.PHONY : src/pathGeneration.i
+
+# target to preprocess a source file
+src/pathGeneration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/pathGeneration.cpp.i
+.PHONY : src/pathGeneration.cpp.i
+
+src/pathGeneration.s: src/pathGeneration.cpp.s
+.PHONY : src/pathGeneration.s
+
+# target to generate assembly for a file
+src/pathGeneration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/pathGeneration.cpp.s
+.PHONY : src/pathGeneration.cpp.s
 
 src/payoffCall.o: src/payoffCall.cpp.o
 .PHONY : src/payoffCall.o
@@ -379,6 +427,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... cppQuantFi"
+	@echo "... src/asian.o"
+	@echo "... src/asian.i"
+	@echo "... src/asian.s"
 	@echo "... src/eurOptionBSMC.o"
 	@echo "... src/eurOptionBSMC.i"
 	@echo "... src/eurOptionBSMC.s"
@@ -388,6 +439,9 @@ help:
 	@echo "... src/norm.o"
 	@echo "... src/norm.i"
 	@echo "... src/norm.s"
+	@echo "... src/pathGeneration.o"
+	@echo "... src/pathGeneration.i"
+	@echo "... src/pathGeneration.s"
 	@echo "... src/payoffCall.o"
 	@echo "... src/payoffCall.i"
 	@echo "... src/payoffCall.s"

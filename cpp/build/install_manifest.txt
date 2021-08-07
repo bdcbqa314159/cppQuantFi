@@ -1,5 +1,6 @@
 /usr/local/lib/libcppQuantFi.dylib
 /usr/local/include/cppQuantFi
+/usr/local/include/cppQuantFi_bits/newtonRaphson.hpp
 /usr/local/include/cppQuantFi_bits/.DS_Store
 /usr/local/include/cppQuantFi_bits/pathGeneration.hpp
 /usr/local/include/cppQuantFi_bits/vanillaOption.hpp
@@ -13,5 +14,7 @@
 /usr/local/include/cppQuantFi_bits/eurOptionBSMC.hpp
 /usr/local/include/cppQuantFi_bits/norm.hpp
 /usr/local/include/cppQuantFi_bits/thomasAlgorithm.hpp
+/usr/local/include/cppQuantFi_bits/intervalBisection.hpp
 /usr/local/include/cppQuantFi_bits/payoffCall.hpp
 /usr/local/include/cppQuantFi_bits/asian.hpp
+/usr/local/include/cppQuantFi_bits/bsCall.hpp

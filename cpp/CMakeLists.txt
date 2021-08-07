@@ -32,6 +32,9 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/eurOptionBSMC.hpp
     ${PROJECT_INCLUDE_DIR}/pathGeneration.hpp
     ${PROJECT_INCLUDE_DIR}/asian.hpp
+    ${PROJECT_INCLUDE_DIR}/bsCall.hpp
+    ${PROJECT_INCLUDE_DIR}/intervalBisection.hpp
+    ${PROJECT_INCLUDE_DIR}/newtonRaphson.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/vanillaOption.cpp
@@ -43,6 +46,7 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/eurOptionBSMC.cpp
     ${PROJECT_SOURCE_DIR}/pathGeneration.cpp
     ${PROJECT_SOURCE_DIR}/asian.cpp
+    ${PROJECT_SOURCE_DIR}/bsCall.cpp
     
 )
 

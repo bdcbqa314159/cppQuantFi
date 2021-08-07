@@ -198,6 +198,30 @@ src/asian.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/asian.cpp.s
 .PHONY : src/asian.cpp.s
 
+src/bsCall.o: src/bsCall.cpp.o
+.PHONY : src/bsCall.o
+
+# target to build an object file
+src/bsCall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o
+.PHONY : src/bsCall.cpp.o
+
+src/bsCall.i: src/bsCall.cpp.i
+.PHONY : src/bsCall.i
+
+# target to preprocess a source file
+src/bsCall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.i
+.PHONY : src/bsCall.cpp.i
+
+src/bsCall.s: src/bsCall.cpp.s
+.PHONY : src/bsCall.s
+
+# target to generate assembly for a file
+src/bsCall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.s
+.PHONY : src/bsCall.cpp.s
+
 src/eurOptionBSMC.o: src/eurOptionBSMC.cpp.o
 .PHONY : src/eurOptionBSMC.o
 
@@ -430,6 +454,9 @@ help:
 	@echo "... src/asian.o"
 	@echo "... src/asian.i"
 	@echo "... src/asian.s"
+	@echo "... src/bsCall.o"
+	@echo "... src/bsCall.i"
+	@echo "... src/bsCall.s"
 	@echo "... src/eurOptionBSMC.o"
 	@echo "... src/eurOptionBSMC.i"
 	@echo "... src/eurOptionBSMC.s"

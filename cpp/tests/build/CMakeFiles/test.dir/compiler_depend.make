@@ -246,6 +246,9 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/cppQuantFi_bits/norm.hpp \
   /usr/local/include/cppQuantFi_bits/pathGeneration.hpp \
   /usr/local/include/cppQuantFi_bits/asian.hpp \
+  /usr/local/include/cppQuantFi_bits/bsCall.hpp \
+  /usr/local/include/cppQuantFi_bits/intervalBisection.hpp \
+  /usr/local/include/cppQuantFi_bits/newtonRaphson.hpp \
   /usr/local/include/eigen3/Eigen/Dense \
   /usr/local/include/eigen3/Eigen/Core \
   /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -467,10 +470,6 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /usr/local/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
 
 /usr/local/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
-
-/usr/local/include/eigen3/Eigen/Geometry:
 
 /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h:
 
@@ -718,6 +717,12 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
 
+/usr/local/include/cppQuantFi_bits/newtonRaphson.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string:
+
+/usr/local/include/cppQuantFi_bits/intervalBisection.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /usr/local/include/cppQuantFi_bits/asian.hpp:
@@ -908,6 +913,10 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
+/usr/local/include/eigen3/Eigen/Geometry:
+
+/usr/local/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/pthread_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_types/_uint8_t.h:
@@ -955,8 +964,6 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwctype:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/tuple:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__string:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base:
 
@@ -1253,6 +1260,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/pmmintrin.h:
 
 /usr/local/include/cppQuantFi_bits/intro.hpp:
+
+/usr/local/include/cppQuantFi_bits/bsCall.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h:
 

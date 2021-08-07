@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cppQuantFi.dir/src/asian.cpp.o"
   "CMakeFiles/cppQuantFi.dir/src/asian.cpp.o.d"
+  "CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o"
+  "CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o.d"
   "CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.o"
   "CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.o.d"
   "CMakeFiles/cppQuantFi.dir/src/intro.cpp.o"

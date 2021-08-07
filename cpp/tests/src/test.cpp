@@ -473,6 +473,49 @@ int testingAsian(){
     return 0;
 }
 
+int testingBisection(){
+    
+    double S = 100;
+    double K = 100;
+    double r = 0.05;
+    double T = 1.0;
+    double C_M = 10.5;
+    
+    BlackScholesCall bsc(S,K,r,T);
+    
+    double low_vol = 0.05;
+    double high_vol = 0.35;
+    
+    double epsilon = 0.01;
+    
+    double sigma  = interval_bisection<BlackScholesCall, &BlackScholesCall::option_price>(C_M, low_vol, high_vol, epsilon, bsc);
+    
+    std::cout<<"Implied vol with bisection method = "<<sigma<<std::endl;
+    
+    
+    return 0;
+}
+
+int testingNewtonRaphson(){
+    
+    double S = 100;
+    double K = 100;
+    double r = 0.05;
+    double T = 1.0;
+    double C_M = 10.5;
+    
+    BlackScholesCall bsc(S,K,r,T);
+    
+    double init =0.3;
+    double epsilon = 0.001;
+    
+    double sigma = newton_raphson<BlackScholesCall, &BlackScholesCall::option_price, &BlackScholesCall::option_vega>(C_M, init, epsilon, bsc);
+    
+    std::cout<<"Implied vol with Newton Raphson = "<<sigma<<std::endl;
+    
+    return 0;
+}
+
 int main() {
 //    testingVanillaOption();
 //    testingPayOffs();
@@ -490,7 +533,9 @@ int main() {
     
     //testingEurOptGreeksBS();
     //testing_call_GreeksMC();
-    testingAsian();
+    //testingAsian();
+    testingBisection();
+    testingNewtonRaphson();
     
     return 0;
 }

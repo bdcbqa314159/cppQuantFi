@@ -15,6 +15,9 @@
 #include "cppQuantFi_bits/eurOptionBSMC.hpp"
 #include "cppQuantFi_bits/pathGeneration.hpp"
 #include "cppQuantFi_bits/asian.hpp"
+#include "cppQuantFi_bits/bsCall.hpp"
+#include "cppQuantFi_bits/intervalBisection.hpp"
+#include "cppQuantFi_bits/newtonRaphson.hpp"
 #include <eigen3/Eigen/Dense>
 #include <eigen3/Eigen/LU>
 

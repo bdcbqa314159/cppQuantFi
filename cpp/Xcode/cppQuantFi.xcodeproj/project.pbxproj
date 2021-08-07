@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		1756234DCB934C5EBADFDD13 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 43CB47ACD7094BBC85AA61F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 7E8826FB1FC645A1BD44C3F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				2FF820ED502446EBE7AA70BE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,25 +20,25 @@
 		};
 		719182CFC28E4BC49130D8FA /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 854F895EECF94B518AD8801D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = C32FE216E4944E02A824B663 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				80C35EEF5E7BCF67159B0F3D /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				EFAA52695A9E41C28B090FF4 /* PBXTargetDependency */,
-				0DB57F2BE18D4E759380C062 /* PBXTargetDependency */,
+				DD814F35B2B04F96963F1BEF /* PBXTargetDependency */,
+				4A487EC31FCE4F74AA77353F /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		DB0E0CC6C4B54A4CB0812646 /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = E3092425EB2B45F0B408424B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = A46CAB4F4E7E45078DCF8AE7 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				CA57C080E8B7461E992C4CFE /* PBXTargetDependency */,
+				5F0A72438EB04A0CB803F710 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
@@ -46,135 +46,145 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0914CF5F1725423C80BB81F2 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */ = {isa = PBXBuildFile; fileRef = 13E922A975F84D06BEC846F6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */; };
-		19FE5CADE7044738B8423496 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */ = {isa = PBXBuildFile; fileRef = F941113B31DA4E47B54D3AA1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */; };
-		1AE633010966413F8548A166 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */ = {isa = PBXBuildFile; fileRef = 4471B5E91B1142C9A95FB058 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */; };
-		25C4C1356F284B11A8645307 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */ = {isa = PBXBuildFile; fileRef = 69981F3BEDA44D7388E77F5D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */; };
-		338D98E673B8496EA0732CF5 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */ = {isa = PBXBuildFile; fileRef = 0A785C29F63C4C63B70C472B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */; };
-		33DB296C675D4AF7BADCEF00 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */ = {isa = PBXBuildFile; fileRef = B8AB80173923405EA056DC2C /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */; };
-		3E2DADC561D44A239722690E /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */ = {isa = PBXBuildFile; fileRef = BD5EE723F9824403A4036118 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */; };
-		47EE2B976D694D96BD7FAD1E /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */ = {isa = PBXBuildFile; fileRef = FC3094B1946445ADBF4DDCC4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */; };
-		5002E2F0A5D541E4869ECC44 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */ = {isa = PBXBuildFile; fileRef = 1B441BEFF7D940EEB8657BB0 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */; };
-		525D0109DDED439790112E9C /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */ = {isa = PBXBuildFile; fileRef = 7D8F0948442945F7B5AC45BC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */; };
-		529EF04645834931B27A52C3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A82097CFA74A43B88270D09A /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */; };
-		54EC09D09E2645C487AFD3F4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */ = {isa = PBXBuildFile; fileRef = CDDE433A0BAC4053AF16BABB /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */; };
-		6D0EA36707AE4AA58BAC144B /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */ = {isa = PBXBuildFile; fileRef = 5400C04F3F81444B88519D51 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */; };
-		7980C5D216254373A858E91D /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */ = {isa = PBXBuildFile; fileRef = 8827B788646A4165AE6BC3EC /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */; };
-		7F29E4B578044107B7577EEC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */ = {isa = PBXBuildFile; fileRef = 8C43186B49254162B44552EC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */; };
-		80D0CAD2A4E54561A1977C88 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */ = {isa = PBXBuildFile; fileRef = 70B3F63A71A0422DBE98A424 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */; };
-		88867A74E6AE4E869D24EDA5 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */ = {isa = PBXBuildFile; fileRef = 785AE8B58AAD49488CACB546 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */; };
-		9FE3CF8A8BA44737BA2667FA /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */ = {isa = PBXBuildFile; fileRef = D5A3B123ED8448C888990BE4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */; };
-		A3F2AFAD37F049E28E465CF1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */ = {isa = PBXBuildFile; fileRef = 7CAF160857CE4F5F8AB2C3B3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */; };
-		A7A461BF4D774E4FB9BE763C /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */ = {isa = PBXBuildFile; fileRef = FDB44C38B88F4870A71D8B62 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */; };
-		AAAF2191E2E44B46A5227B3E /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */ = {isa = PBXBuildFile; fileRef = 257D8F51732E4A03A7016741 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */; };
-		B06A724A6F5648A9A0796B43 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */ = {isa = PBXBuildFile; fileRef = 6228ECC8A32147E1A5F08A54 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */; };
-		B14A14B3E537464DA0697CEF /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = 87FC3A89634C4BF89867841A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */; };
-		B69E15066A4C48F2AE6BFA0E /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */ = {isa = PBXBuildFile; fileRef = 8A0D7C68D68B40378335BB18 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */; };
-		B710F93DF0234738A17A4F26 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */ = {isa = PBXBuildFile; fileRef = FBACC57AF9E246708C36FB7D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */; };
-		C3E7CBDC1E5E49B78D62D5F4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = 8D25BF1E1D264E46A8D8962D /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */; };
-		D6E0D5368D0D4431BF293AA3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */ = {isa = PBXBuildFile; fileRef = 9C5D619E604644CF98705EA6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */; };
-		E96AE17301A246718B9A70B0 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */ = {isa = PBXBuildFile; fileRef = EDE9678DA0E94B82AB56369F /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */; };
-		EFD6A1BBD61746DC93E1B939 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */ = {isa = PBXBuildFile; fileRef = 63CD9C4A9C764077B4B525C1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */; };
+		0A4B153BF57846F0BCB7CF29 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/linearCongruentialGenerator.hpp */ = {isa = PBXBuildFile; fileRef = C2E7F3CBE50B4F70A21AB4C6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/linearCongruentialGenerator.hpp */; };
+		0AE3469633194F14ACADE8AC /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AC17364E541240C9955237EA /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */; };
+		137B4D9843E247BF8888796A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */ = {isa = PBXBuildFile; fileRef = E1ACCE03232B431EA510FC9B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */; };
+		1AE2EB778A254AB69BA6587D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */ = {isa = PBXBuildFile; fileRef = 2368851A365B4A95B10E975B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */; };
+		1B19123E13424C368BE8EFA4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */ = {isa = PBXBuildFile; fileRef = F8E963ACB49A4EF692B01F16 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */; };
+		23CCD5A2337D462CAC3B8B8A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */ = {isa = PBXBuildFile; fileRef = 64DDE4EEEF6141A8B1711022 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */; };
+		2BF1881F4F674314B460C9E4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */ = {isa = PBXBuildFile; fileRef = CCABB6EF237A44BFB535C187 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */; };
+		33741DBE1D984601B8A60B0F /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */ = {isa = PBXBuildFile; fileRef = F2142589919044C3A7BB4A48 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */; };
+		36B53E95967A41ACB27E155B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */ = {isa = PBXBuildFile; fileRef = 0901184BE99D4E72AA198E31 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */; };
+		36B8DA4A48A64BF8B1F022EC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */ = {isa = PBXBuildFile; fileRef = C97CEBB425714F3983912EE3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */; };
+		3CB69E8382BD4146B63F9D42 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */ = {isa = PBXBuildFile; fileRef = 112A1D40A7B44B95A4128544 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */; };
+		4835DEB2426940308F1A6869 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp */ = {isa = PBXBuildFile; fileRef = 45DFB2F8006F47C190195007 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp */; };
+		4AE890ED703440AFA3AEAED6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = 3811FAE0E0204D09AE68945F /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */; };
+		5142A39E165C41D384728B6B /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp */ = {isa = PBXBuildFile; fileRef = E79391BA0376431287C5F26A /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp */; };
+		5BEB20BB96EF4A258745FAEE /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */ = {isa = PBXBuildFile; fileRef = 537F42E6328F468B8D66AD45 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */; };
+		5E6DA2D325B34E38BFE33F2F /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */ = {isa = PBXBuildFile; fileRef = 95A310C0774B4458B0CB83E3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */; };
+		70A952324CD24986B082AAC8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */ = {isa = PBXBuildFile; fileRef = 5066DD089BA84C44A9EA6CFA /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */; };
+		7E8BFD3B0A354B108F0962E6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */ = {isa = PBXBuildFile; fileRef = CE5EC8ADB0494C20A2C7BDA8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */; };
+		7EE731F68D0D4B23BBA9AE40 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/random.hpp */ = {isa = PBXBuildFile; fileRef = 1A8C390F39C047A08DB6661A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/random.hpp */; };
+		9052E8DC44BD45F891F08509 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */ = {isa = PBXBuildFile; fileRef = 2E046B94EE6B4D629EE52D2F /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */; };
+		90D3F07775D84F859C5CF5FE /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */ = {isa = PBXBuildFile; fileRef = D0DE031B2EA84F37BC5FF241 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */; };
+		953D7DE66D364984AF02A40D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/statistics.hpp */ = {isa = PBXBuildFile; fileRef = 7DCD47109D724778A3ED6208 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/statistics.hpp */; };
+		98235F8272594F9B96F02431 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */ = {isa = PBXBuildFile; fileRef = 20AFB431E9A5406D9E2E0B3E /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */; };
+		A1A781455EDA4E70B34D11FA /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */ = {isa = PBXBuildFile; fileRef = 48A601C76A0B47F78F8AF270 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */; };
+		AA42F317EB044309A88A72A8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */ = {isa = PBXBuildFile; fileRef = 8F3ACE133ED94181B675F75A /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */; };
+		AA7EDBFCA3924F5DBF5075F7 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */ = {isa = PBXBuildFile; fileRef = 84B781473F414CD990FCF8B8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */; };
+		B0B9B898FB70459AA4A027CB /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */ = {isa = PBXBuildFile; fileRef = AF25CA864DBC4B60BAF929ED /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */; };
+		C68707400FBF46ED9951F7E7 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */ = {isa = PBXBuildFile; fileRef = 928480A4134D4FF7969F7A92 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */; };
+		C93C74535C8C4928B4CA0ECD /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */ = {isa = PBXBuildFile; fileRef = 93CE7667E0974869904CAD78 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */; };
+		CF863545950641FA813997DA /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */ = {isa = PBXBuildFile; fileRef = 593FEF884DCA40B3BD218C53 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */; };
+		D25FB2E982014A4B8634570B /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */ = {isa = PBXBuildFile; fileRef = EBCD970BB49F44E199CF223E /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */; };
+		E44FB09DAB8F445EA5BFA5FC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = 9E2331FC28EC45DFBB9C2209 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */; };
+		F47CDED8989744D6BC4EC44F /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */ = {isa = PBXBuildFile; fileRef = 2FB234B8BC344B8B8F78CA88 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */; };
+		F8EFC8EAC3E246BEA52DF846 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */ = {isa = PBXBuildFile; fileRef = CF1E743935024E50BABC6DFA /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		2BB4044AB230494C8193D2E1 /* Release */ = {
+		3CF52ED66DFD402086632055 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		70EB421FCFB74AA89D76B5A1 /* MinSizeRel */ = {
+		680FDB6C3BF34541958D236D /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		A622FD6349144C1881A0F0C0 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		B26EDF5944134870B33475F0 /* Debug */ = {
+		D0F6A132E27D43C397E67D5F /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		DA07C45B7B00490AB3F67BBE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		04F99160CCE0458D81BCF9D7 /* PBXContainerItemProxy */ = {
+		455FB1AD7E70479BA3506F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D87B9FBD49C941239E7E02D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1756234DCB934C5EBADFDD13;
+			remoteInfo = ZERO_CHECK;
+		};
+		6C3E0D00AEBE49599ECBB8F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D87B9FBD49C941239E7E02D7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2163881E29DB4041A0F85815;
 			remoteInfo = cppQuantFi;
 		};
-		35DE30CF531046FD95C32DFE /* PBXContainerItemProxy */ = {
+		87774A16A9A24856857CFAE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D87B9FBD49C941239E7E02D7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1756234DCB934C5EBADFDD13;
 			remoteInfo = ZERO_CHECK;
 		};
-		501D3193311D4502B679100C /* PBXContainerItemProxy */ = {
+		D9BB1B0FDBE2492C8BF04A05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D87B9FBD49C941239E7E02D7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 719182CFC28E4BC49130D8FA;
 			remoteInfo = ALL_BUILD;
 		};
-		A9EE241FA2E94823859F427F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D87B9FBD49C941239E7E02D7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1756234DCB934C5EBADFDD13;
-			remoteInfo = ZERO_CHECK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A785C29F63C4C63B70C472B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffDoubleDigital.hpp; path = include/cppQuantFi_bits/payoffDoubleDigital.hpp; sourceTree = SOURCE_ROOT; };
-		13E922A975F84D06BEC846F6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = thomasAlgorithm.hpp; path = include/cppQuantFi_bits/thomasAlgorithm.hpp; sourceTree = SOURCE_ROOT; };
-		1B441BEFF7D940EEB8657BB0 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = norm.cpp; path = src/norm.cpp; sourceTree = SOURCE_ROOT; };
-		257D8F51732E4A03A7016741 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bsCall.cpp; path = src/bsCall.cpp; sourceTree = SOURCE_ROOT; };
-		4471B5E91B1142C9A95FB058 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eurOptionBSMC.cpp; path = src/eurOptionBSMC.cpp; sourceTree = SOURCE_ROOT; };
-		5400C04F3F81444B88519D51 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffDoubleDigital.cpp; path = src/payoffDoubleDigital.cpp; sourceTree = SOURCE_ROOT; };
-		6228ECC8A32147E1A5F08A54 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffCall.cpp; path = src/payoffCall.cpp; sourceTree = SOURCE_ROOT; };
-		63CD9C4A9C764077B4B525C1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff.hpp; path = include/cppQuantFi_bits/payoff.hpp; sourceTree = SOURCE_ROOT; };
-		69981F3BEDA44D7388E77F5D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = asian.hpp; path = include/cppQuantFi_bits/asian.hpp; sourceTree = SOURCE_ROOT; };
-		70B3F63A71A0422DBE98A424 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = eurOptionBSMC.hpp; path = include/cppQuantFi_bits/eurOptionBSMC.hpp; sourceTree = SOURCE_ROOT; };
-		785AE8B58AAD49488CACB546 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = newtonRaphson.hpp; path = include/cppQuantFi_bits/newtonRaphson.hpp; sourceTree = SOURCE_ROOT; };
-		7CAF160857CE4F5F8AB2C3B3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffPut.cpp; path = src/payoffPut.cpp; sourceTree = SOURCE_ROOT; };
-		7D8F0948442945F7B5AC45BC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffPut.hpp; path = include/cppQuantFi_bits/payoffPut.hpp; sourceTree = SOURCE_ROOT; };
-		87FC3A89634C4BF89867841A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/cppQuantFi_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
-		8827B788646A4165AE6BC3EC /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = thomasAlgorithm.cpp; path = src/thomasAlgorithm.cpp; sourceTree = SOURCE_ROOT; };
-		8A0D7C68D68B40378335BB18 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = norm.hpp; path = include/cppQuantFi_bits/norm.hpp; sourceTree = SOURCE_ROOT; };
-		8C43186B49254162B44552EC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = qsMatrix.hpp; path = include/cppQuantFi_bits/qsMatrix.hpp; sourceTree = SOURCE_ROOT; };
-		8D25BF1E1D264E46A8D8962D /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
-		9C5D619E604644CF98705EA6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = asian.cpp; path = src/asian.cpp; sourceTree = SOURCE_ROOT; };
-		A82097CFA74A43B88270D09A /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		AE56B53D5C9D412ABBB90418 /* cppQuantFi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcppQuantFi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8AB80173923405EA056DC2C /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffCall.hpp; path = include/cppQuantFi_bits/payoffCall.hpp; sourceTree = SOURCE_ROOT; };
-		BD5EE723F9824403A4036118 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pathGeneration.cpp; path = src/pathGeneration.cpp; sourceTree = SOURCE_ROOT; };
-		CD5B309F053F407EB91E34E0 /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		CDDE433A0BAC4053AF16BABB /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix.hpp; path = include/cppQuantFi_bits/matrix.hpp; sourceTree = SOURCE_ROOT; };
-		D5A3B123ED8448C888990BE4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanillaOption.cpp; path = src/vanillaOption.cpp; sourceTree = SOURCE_ROOT; };
-		EDE9678DA0E94B82AB56369F /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pathGeneration.hpp; path = include/cppQuantFi_bits/pathGeneration.hpp; sourceTree = SOURCE_ROOT; };
-		F941113B31DA4E47B54D3AA1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = bsCall.hpp; path = include/cppQuantFi_bits/bsCall.hpp; sourceTree = SOURCE_ROOT; };
-		FBACC57AF9E246708C36FB7D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = functors.hpp; path = include/cppQuantFi_bits/functors.hpp; sourceTree = SOURCE_ROOT; };
-		FC3094B1946445ADBF4DDCC4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intervalBisection.hpp; path = include/cppQuantFi_bits/intervalBisection.hpp; sourceTree = SOURCE_ROOT; };
-		FDB44C38B88F4870A71D8B62 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanillaOption.hpp; path = include/cppQuantFi_bits/vanillaOption.hpp; sourceTree = SOURCE_ROOT; };
+		0901184BE99D4E72AA198E31 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intervalBisection.hpp; path = include/cppQuantFi_bits/intervalBisection.hpp; sourceTree = SOURCE_ROOT; };
+		112A1D40A7B44B95A4128544 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vanillaOption.cpp; path = src/vanillaOption.cpp; sourceTree = SOURCE_ROOT; };
+		1A8C390F39C047A08DB6661A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/random.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = random.hpp; path = include/cppQuantFi_bits/random.hpp; sourceTree = SOURCE_ROOT; };
+		20AFB431E9A5406D9E2E0B3E /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffCall.hpp; path = include/cppQuantFi_bits/payoffCall.hpp; sourceTree = SOURCE_ROOT; };
+		2368851A365B4A95B10E975B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = pathGeneration.hpp; path = include/cppQuantFi_bits/pathGeneration.hpp; sourceTree = SOURCE_ROOT; };
+		2E046B94EE6B4D629EE52D2F /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoff.hpp; path = include/cppQuantFi_bits/payoff.hpp; sourceTree = SOURCE_ROOT; };
+		2FB234B8BC344B8B8F78CA88 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffPut.hpp; path = include/cppQuantFi_bits/payoffPut.hpp; sourceTree = SOURCE_ROOT; };
+		3811FAE0E0204D09AE68945F /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
+		45DFB2F8006F47C190195007 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = statistics.cpp; path = src/statistics.cpp; sourceTree = SOURCE_ROOT; };
+		48A601C76A0B47F78F8AF270 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffPut.cpp; path = src/payoffPut.cpp; sourceTree = SOURCE_ROOT; };
+		5066DD089BA84C44A9EA6CFA /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix.hpp; path = include/cppQuantFi_bits/matrix.hpp; sourceTree = SOURCE_ROOT; };
+		537F42E6328F468B8D66AD45 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = norm.cpp; path = src/norm.cpp; sourceTree = SOURCE_ROOT; };
+		593FEF884DCA40B3BD218C53 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = bsCall.hpp; path = include/cppQuantFi_bits/bsCall.hpp; sourceTree = SOURCE_ROOT; };
+		64DDE4EEEF6141A8B1711022 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = qsMatrix.hpp; path = include/cppQuantFi_bits/qsMatrix.hpp; sourceTree = SOURCE_ROOT; };
+		7DCD47109D724778A3ED6208 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/statistics.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = statistics.hpp; path = include/cppQuantFi_bits/statistics.hpp; sourceTree = SOURCE_ROOT; };
+		84B781473F414CD990FCF8B8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = norm.hpp; path = include/cppQuantFi_bits/norm.hpp; sourceTree = SOURCE_ROOT; };
+		8F3ACE133ED94181B675F75A /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffCall.cpp; path = src/payoffCall.cpp; sourceTree = SOURCE_ROOT; };
+		928480A4134D4FF7969F7A92 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eurOptionBSMC.cpp; path = src/eurOptionBSMC.cpp; sourceTree = SOURCE_ROOT; };
+		93CE7667E0974869904CAD78 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = thomasAlgorithm.cpp; path = src/thomasAlgorithm.cpp; sourceTree = SOURCE_ROOT; };
+		95A310C0774B4458B0CB83E3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = asian.cpp; path = src/asian.cpp; sourceTree = SOURCE_ROOT; };
+		9E2331FC28EC45DFBB9C2209 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/cppQuantFi_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
+		AC17364E541240C9955237EA /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AF25CA864DBC4B60BAF929ED /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = asian.hpp; path = include/cppQuantFi_bits/asian.hpp; sourceTree = SOURCE_ROOT; };
+		BDAB9C6215104A37B94F7E4B /* cppQuantFi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcppQuantFi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E7F3CBE50B4F70A21AB4C6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/linearCongruentialGenerator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = linearCongruentialGenerator.hpp; path = include/cppQuantFi_bits/linearCongruentialGenerator.hpp; sourceTree = SOURCE_ROOT; };
+		C97CEBB425714F3983912EE3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = functors.hpp; path = include/cppQuantFi_bits/functors.hpp; sourceTree = SOURCE_ROOT; };
+		CCABB6EF237A44BFB535C187 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vanillaOption.hpp; path = include/cppQuantFi_bits/vanillaOption.hpp; sourceTree = SOURCE_ROOT; };
+		CE5EC8ADB0494C20A2C7BDA8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = payoffDoubleDigital.cpp; path = src/payoffDoubleDigital.cpp; sourceTree = SOURCE_ROOT; };
+		CF1E743935024E50BABC6DFA /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = thomasAlgorithm.hpp; path = include/cppQuantFi_bits/thomasAlgorithm.hpp; sourceTree = SOURCE_ROOT; };
+		D0DE031B2EA84F37BC5FF241 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = payoffDoubleDigital.hpp; path = include/cppQuantFi_bits/payoffDoubleDigital.hpp; sourceTree = SOURCE_ROOT; };
+		E1ACCE03232B431EA510FC9B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = eurOptionBSMC.hpp; path = include/cppQuantFi_bits/eurOptionBSMC.hpp; sourceTree = SOURCE_ROOT; };
+		E79391BA0376431287C5F26A /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linearCongruentialGenerator.cpp; path = src/linearCongruentialGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		E7E52AC3AA3248F9944EE355 /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EBCD970BB49F44E199CF223E /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bsCall.cpp; path = src/bsCall.cpp; sourceTree = SOURCE_ROOT; };
+		F2142589919044C3A7BB4A48 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pathGeneration.cpp; path = src/pathGeneration.cpp; sourceTree = SOURCE_ROOT; };
+		F8E963ACB49A4EF692B01F16 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = newtonRaphson.hpp; path = include/cppQuantFi_bits/newtonRaphson.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F193CC1F7EFB4E53ADA1939E /* Frameworks */ = {
+		D39045EA2493481D8667543B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,105 +194,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02FE16ECC4DD426EB3B1032D /* CMake Rules */ = {
+		17C8DB2FB81446038537ED68 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				99A246FD896B4A60B721F724 /* CMake Rules */,
+				E7E52AC3AA3248F9944EE355 /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		487112A2309D4E6396837B14 /* cppQuantFi_bits */ = {
+			isa = PBXGroup;
+			children = (
+				AF25CA864DBC4B60BAF929ED /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */,
+				593FEF884DCA40B3BD218C53 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */,
+				E1ACCE03232B431EA510FC9B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */,
+				C97CEBB425714F3983912EE3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */,
+				0901184BE99D4E72AA198E31 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */,
+				9E2331FC28EC45DFBB9C2209 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */,
+				C2E7F3CBE50B4F70A21AB4C6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/linearCongruentialGenerator.hpp */,
+				5066DD089BA84C44A9EA6CFA /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */,
+				F8E963ACB49A4EF692B01F16 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */,
+				84B781473F414CD990FCF8B8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */,
+				2368851A365B4A95B10E975B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */,
+				2E046B94EE6B4D629EE52D2F /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */,
+				20AFB431E9A5406D9E2E0B3E /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */,
+				D0DE031B2EA84F37BC5FF241 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */,
+				2FB234B8BC344B8B8F78CA88 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */,
+				64DDE4EEEF6141A8B1711022 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */,
+				1A8C390F39C047A08DB6661A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/random.hpp */,
+				7DCD47109D724778A3ED6208 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/statistics.hpp */,
+				CF1E743935024E50BABC6DFA /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */,
+				CCABB6EF237A44BFB535C187 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */,
+			);
+			name = cppQuantFi_bits;
+			sourceTree = "<group>";
+		};
+		6CA39FF5F112483B8A9D2331 = {
+			isa = PBXGroup;
+			children = (
+				D80EF60D973D407B8D2276EC /* cppQuantFi */,
+				17C8DB2FB81446038537ED68 /* ALL_BUILD */,
+				FC6C70F164F64696A0964553 /* Products */,
+				BC4396DEF10F4D1F98C70070 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76F870E10F884E2B9369CA2C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				95A310C0774B4458B0CB83E3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */,
+				EBCD970BB49F44E199CF223E /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */,
+				928480A4134D4FF7969F7A92 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */,
+				3811FAE0E0204D09AE68945F /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */,
+				E79391BA0376431287C5F26A /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp */,
+				537F42E6328F468B8D66AD45 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */,
+				F2142589919044C3A7BB4A48 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */,
+				8F3ACE133ED94181B675F75A /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */,
+				CE5EC8ADB0494C20A2C7BDA8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */,
+				48A601C76A0B47F78F8AF270 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */,
+				45DFB2F8006F47C190195007 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp */,
+				93CE7667E0974869904CAD78 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */,
+				112A1D40A7B44B95A4128544 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		99A246FD896B4A60B721F724 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		0FDF3B9D2819407BBC6DA023 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				1FE1DD91D35C42388F0F8637 /* cppQuantFi_bits */,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
-		1FE1DD91D35C42388F0F8637 /* cppQuantFi_bits */ = {
-			isa = PBXGroup;
-			children = (
-				69981F3BEDA44D7388E77F5D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/asian.hpp */,
-				F941113B31DA4E47B54D3AA1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/bsCall.hpp */,
-				70B3F63A71A0422DBE98A424 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/eurOptionBSMC.hpp */,
-				FBACC57AF9E246708C36FB7D /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/functors.hpp */,
-				FC3094B1946445ADBF4DDCC4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intervalBisection.hpp */,
-				87FC3A89634C4BF89867841A /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/intro.hpp */,
-				CDDE433A0BAC4053AF16BABB /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/matrix.hpp */,
-				785AE8B58AAD49488CACB546 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/newtonRaphson.hpp */,
-				8A0D7C68D68B40378335BB18 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/norm.hpp */,
-				EDE9678DA0E94B82AB56369F /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/pathGeneration.hpp */,
-				63CD9C4A9C764077B4B525C1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoff.hpp */,
-				B8AB80173923405EA056DC2C /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffCall.hpp */,
-				0A785C29F63C4C63B70C472B /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffDoubleDigital.hpp */,
-				7D8F0948442945F7B5AC45BC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/payoffPut.hpp */,
-				8C43186B49254162B44552EC /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/qsMatrix.hpp */,
-				13E922A975F84D06BEC846F6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/thomasAlgorithm.hpp */,
-				FDB44C38B88F4870A71D8B62 /* /Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits/vanillaOption.hpp */,
-			);
-			name = cppQuantFi_bits;
-			sourceTree = "<group>";
-		};
-		2B7D34E188C3439CA3D7DDB7 /* cppQuantFi */ = {
-			isa = PBXGroup;
-			children = (
-				0FDF3B9D2819407BBC6DA023 /* include */,
-				D39E4FCCA93E4C4893913319 /* src */,
-				A82097CFA74A43B88270D09A /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */,
-			);
-			name = cppQuantFi;
-			sourceTree = "<group>";
-		};
-		5E0981BB06394D13921EEB93 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AE56B53D5C9D412ABBB90418 /* cppQuantFi */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B1801B762F0740AAB617AD93 /* Frameworks */ = {
+		BC4396DEF10F4D1F98C70070 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C64FA0C15FA74A2B904A379A = {
+		C71D4EFF37294C86816F4E8F /* include */ = {
 			isa = PBXGroup;
 			children = (
-				2B7D34E188C3439CA3D7DDB7 /* cppQuantFi */,
-				F272175BAD8D45049AF6069D /* ALL_BUILD */,
-				5E0981BB06394D13921EEB93 /* Products */,
-				B1801B762F0740AAB617AD93 /* Frameworks */,
+				487112A2309D4E6396837B14 /* cppQuantFi_bits */,
 			);
+			name = include;
 			sourceTree = "<group>";
 		};
-		D39E4FCCA93E4C4893913319 /* src */ = {
+		D80EF60D973D407B8D2276EC /* cppQuantFi */ = {
 			isa = PBXGroup;
 			children = (
-				9C5D619E604644CF98705EA6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */,
-				257D8F51732E4A03A7016741 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */,
-				4471B5E91B1142C9A95FB058 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */,
-				8D25BF1E1D264E46A8D8962D /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */,
-				1B441BEFF7D940EEB8657BB0 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */,
-				BD5EE723F9824403A4036118 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */,
-				6228ECC8A32147E1A5F08A54 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */,
-				5400C04F3F81444B88519D51 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */,
-				7CAF160857CE4F5F8AB2C3B3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */,
-				8827B788646A4165AE6BC3EC /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */,
-				D5A3B123ED8448C888990BE4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */,
+				C71D4EFF37294C86816F4E8F /* include */,
+				76F870E10F884E2B9369CA2C /* src */,
+				AC17364E541240C9955237EA /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */,
 			);
-			name = src;
+			name = cppQuantFi;
 			sourceTree = "<group>";
 		};
-		F272175BAD8D45049AF6069D /* ALL_BUILD */ = {
+		FC6C70F164F64696A0964553 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02FE16ECC4DD426EB3B1032D /* CMake Rules */,
-				CD5B309F053F407EB91E34E0 /* /Users/bernardocohen/repos/cppQuantFi/cpp/CMakeLists.txt */,
+				BDAB9C6215104A37B94F7E4B /* cppQuantFi */,
 			);
-			name = ALL_BUILD;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,20 +305,20 @@
 /* Begin PBXNativeTarget section */
 		2163881E29DB4041A0F85815 /* cppQuantFi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED325A8C6AF84016AE379AD8 /* Build configuration list for PBXNativeTarget "cppQuantFi" */;
+			buildConfigurationList = CDAEFA7EF7BC49769D9EE25C /* Build configuration list for PBXNativeTarget "cppQuantFi" */;
 			buildPhases = (
-				B9E3B94E13F5495ABBF58116 /* Sources */,
-				F193CC1F7EFB4E53ADA1939E /* Frameworks */,
+				B73165C3BF8945F58CB1E6B0 /* Sources */,
+				D39045EA2493481D8667543B /* Frameworks */,
 				5C76D756282C6968A352319E /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4A10D3A220FD4A84BC7770F2 /* PBXTargetDependency */,
+				520B31D2863F49628369003C /* PBXTargetDependency */,
 			);
 			name = cppQuantFi;
 			productName = cppQuantFi;
-			productReference = AE56B53D5C9D412ABBB90418 /* cppQuantFi */;
+			productReference = BDAB9C6215104A37B94F7E4B /* cppQuantFi */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -315,18 +330,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 76C56E1653FA432F9903B72B /* Build configuration list for PBXProject "cppQuantFi" */;
+			buildConfigurationList = 5CE6A83707154BCBA25DE653 /* Build configuration list for PBXProject "cppQuantFi" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				B26EDF5944134870B33475F0 /* Debug */,
-				2BB4044AB230494C8193D2E1 /* Release */,
-				70EB421FCFB74AA89D76B5A1 /* MinSizeRel */,
-				A622FD6349144C1881A0F0C0 /* RelWithDebInfo */,
+				D0F6A132E27D43C397E67D5F /* Debug */,
+				3CF52ED66DFD402086632055 /* Release */,
+				680FDB6C3BF34541958D236D /* MinSizeRel */,
+				DA07C45B7B00490AB3F67BBE /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = C64FA0C15FA74A2B904A379A;
+			mainGroup = 6CA39FF5F112483B8A9D2331;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -515,148 +530,53 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9E3B94E13F5495ABBF58116 /* Sources */ = {
+		B73165C3BF8945F58CB1E6B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E0D5368D0D4431BF293AA3 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */,
-				AAAF2191E2E44B46A5227B3E /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */,
-				1AE633010966413F8548A166 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */,
-				C3E7CBDC1E5E49B78D62D5F4 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */,
-				5002E2F0A5D541E4869ECC44 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */,
-				3E2DADC561D44A239722690E /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */,
-				B06A724A6F5648A9A0796B43 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */,
-				6D0EA36707AE4AA58BAC144B /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */,
-				A3F2AFAD37F049E28E465CF1 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */,
-				7980C5D216254373A858E91D /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */,
-				9FE3CF8A8BA44737BA2667FA /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */,
+				5E6DA2D325B34E38BFE33F2F /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/asian.cpp */,
+				D25FB2E982014A4B8634570B /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp */,
+				C68707400FBF46ED9951F7E7 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/eurOptionBSMC.cpp */,
+				4AE890ED703440AFA3AEAED6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/intro.cpp */,
+				5142A39E165C41D384728B6B /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp */,
+				5BEB20BB96EF4A258745FAEE /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/norm.cpp */,
+				33741DBE1D984601B8A60B0F /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/pathGeneration.cpp */,
+				AA42F317EB044309A88A72A8 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffCall.cpp */,
+				7E8BFD3B0A354B108F0962E6 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffDoubleDigital.cpp */,
+				A1A781455EDA4E70B34D11FA /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/payoffPut.cpp */,
+				4835DEB2426940308F1A6869 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp */,
+				C93C74535C8C4928B4CA0ECD /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/thomasAlgorithm.cpp */,
+				3CB69E8382BD4146B63F9D42 /* /Users/bernardocohen/repos/cppQuantFi/cpp/src/vanillaOption.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DB57F2BE18D4E759380C062 /* PBXTargetDependency */ = {
+		4A487EC31FCE4F74AA77353F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2163881E29DB4041A0F85815 /* cppQuantFi */;
-			targetProxy = 04F99160CCE0458D81BCF9D7 /* PBXContainerItemProxy */;
+			targetProxy = 6C3E0D00AEBE49599ECBB8F9 /* PBXContainerItemProxy */;
 		};
-		4A10D3A220FD4A84BC7770F2 /* PBXTargetDependency */ = {
+		520B31D2863F49628369003C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1756234DCB934C5EBADFDD13 /* ZERO_CHECK */;
-			targetProxy = 35DE30CF531046FD95C32DFE /* PBXContainerItemProxy */;
+			targetProxy = 87774A16A9A24856857CFAE5 /* PBXContainerItemProxy */;
 		};
-		CA57C080E8B7461E992C4CFE /* PBXTargetDependency */ = {
+		5F0A72438EB04A0CB803F710 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 719182CFC28E4BC49130D8FA /* ALL_BUILD */;
-			targetProxy = 501D3193311D4502B679100C /* PBXContainerItemProxy */;
+			targetProxy = D9BB1B0FDBE2492C8BF04A05 /* PBXContainerItemProxy */;
 		};
-		EFAA52695A9E41C28B090FF4 /* PBXTargetDependency */ = {
+		DD814F35B2B04F96963F1BEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1756234DCB934C5EBADFDD13 /* ZERO_CHECK */;
-			targetProxy = A9EE241FA2E94823859F427F /* PBXContainerItemProxy */;
+			targetProxy = 455FB1AD7E70479BA3506F20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01462CB49C9C4D779F90E44D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppQuantFi_EXPORTS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cppQuantFi;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		052DB12D99544EEFB60EFD86 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		0809FBBC8A6D45F78854141A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
-			};
-			name = Debug;
-		};
-		19D10FBA6371463C812EB28E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2B86E7624BD848658FBEAB4D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2DB2B2D18328442A9629A2AA /* Debug */ = {
+		06150A2CFCA348168E02E4D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -676,231 +596,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		4070B887C35D4FB5A8EF6180 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		4BD111D0DEC243378E7B3B3F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		53112A41818F4CB79724FBB7 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		588EFC64227A4E8C8726AAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		5E278B2871244EA1AF938507 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		67D94BCF82744F39B6D96087 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		7CAD5B634B714ABB9BAFD356 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		859EB813D8364F699A85631A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppQuantFi_EXPORTS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cppQuantFi;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		8AB6AEF4972E46AE95065C27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		A6F7C482DA584279BC34CCB9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
-			};
-			name = Release;
-		};
-		B14046652B2C4A68BF690804 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppQuantFi_EXPORTS);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = cppQuantFi;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		B84C305C170244C6BC40A522 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		C4A6ABAB0B5741D9BDB24BC5 /* Release */ = {
+		0AE061532F1A4831A2822543 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -927,7 +623,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		D7CEF17C1E6B47C4BC5A55F2 /* MinSizeRel */ = {
+		0ED4D07AA767458383647843 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -947,60 +643,381 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
+		0FAF74120B8F4895A0AB1039 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		1728AA5646034C02BE7B76CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2FA00C3768594A3AB446C972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3D9707724A034300905AA112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
+			};
+			name = Debug;
+		};
+		4AA305CA94D34550976A12D8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		51BCD79B6369455E9454A6C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
+			};
+			name = Release;
+		};
+		5D5994F2A27F452FAA1A9A25 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6E110506A9054A80925CCFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8803499EFF6C4814B99ECF2A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9176D29FE1084218859934FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		9A469040A19F4A89976EDA97 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C0D004B451054172849A9ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CEBC4E9A04944F638B3F2141 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC985EE9340C4F54BF5F2150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppQuantFi_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppQuantFi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E4D31F5F08E3475A829BF787 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppQuantFi_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppQuantFi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EA8AAFA94B1743AA947ACEF6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",cppQuantFi_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/cppQuantFi/cpp/include/cppQuantFi_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cppQuantFi;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F520465C028744DBB6E9099F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/cppQuantFi/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43CB47ACD7094BBC85AA61F9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		5CE6A83707154BCBA25DE653 /* Build configuration list for PBXProject "cppQuantFi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				052DB12D99544EEFB60EFD86 /* Debug */,
-				7CAD5B634B714ABB9BAFD356 /* Release */,
-				D7CEF17C1E6B47C4BC5A55F2 /* MinSizeRel */,
-				4BD111D0DEC243378E7B3B3F /* RelWithDebInfo */,
+				3D9707724A034300905AA112 /* Debug */,
+				51BCD79B6369455E9454A6C5 /* Release */,
+				9176D29FE1084218859934FC /* MinSizeRel */,
+				0FAF74120B8F4895A0AB1039 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		76C56E1653FA432F9903B72B /* Build configuration list for PBXProject "cppQuantFi" */ = {
+		7E8826FB1FC645A1BD44C3F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0809FBBC8A6D45F78854141A /* Debug */,
-				A6F7C482DA584279BC34CCB9 /* Release */,
-				67D94BCF82744F39B6D96087 /* MinSizeRel */,
-				53112A41818F4CB79724FBB7 /* RelWithDebInfo */,
+				2FA00C3768594A3AB446C972 /* Debug */,
+				F520465C028744DBB6E9099F /* Release */,
+				0ED4D07AA767458383647843 /* MinSizeRel */,
+				CEBC4E9A04944F638B3F2141 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		854F895EECF94B518AD8801D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		A46CAB4F4E7E45078DCF8AE7 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DB2B2D18328442A9629A2AA /* Debug */,
-				5E278B2871244EA1AF938507 /* Release */,
-				4070B887C35D4FB5A8EF6180 /* MinSizeRel */,
-				19D10FBA6371463C812EB28E /* RelWithDebInfo */,
+				1728AA5646034C02BE7B76CF /* Debug */,
+				C0D004B451054172849A9ECC /* Release */,
+				9A469040A19F4A89976EDA97 /* MinSizeRel */,
+				5D5994F2A27F452FAA1A9A25 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E3092425EB2B45F0B408424B /* Build configuration list for PBXAggregateTarget "install" */ = {
+		C32FE216E4944E02A824B663 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				588EFC64227A4E8C8726AAAC /* Debug */,
-				8AB6AEF4972E46AE95065C27 /* Release */,
-				B84C305C170244C6BC40A522 /* MinSizeRel */,
-				2B86E7624BD848658FBEAB4D /* RelWithDebInfo */,
+				06150A2CFCA348168E02E4D1 /* Debug */,
+				6E110506A9054A80925CCFA5 /* Release */,
+				4AA305CA94D34550976A12D8 /* MinSizeRel */,
+				8803499EFF6C4814B99ECF2A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		ED325A8C6AF84016AE379AD8 /* Build configuration list for PBXNativeTarget "cppQuantFi" */ = {
+		CDAEFA7EF7BC49769D9EE25C /* Build configuration list for PBXNativeTarget "cppQuantFi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B14046652B2C4A68BF690804 /* Debug */,
-				C4A6ABAB0B5741D9BDB24BC5 /* Release */,
-				859EB813D8364F699A85631A /* MinSizeRel */,
-				01462CB49C9C4D779F90E44D /* RelWithDebInfo */,
+				DC985EE9340C4F54BF5F2150 /* Debug */,
+				0AE061532F1A4831A2822543 /* Release */,
+				EA8AAFA94B1743AA947ACEF6 /* MinSizeRel */,
+				E4D31F5F08E3475A829BF787 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -223,6 +223,34 @@ CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/bsCall.cpp -o CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.s
 
+CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o: ../src/linearCongruentialGenerator.cpp
+CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp
+
+CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp > CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/linearCongruentialGenerator.cpp -o CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.s
+
+CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o: ../src/statistics.cpp
+CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp
+
+CMakeFiles/cppQuantFi.dir/src/statistics.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/statistics.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp > CMakeFiles/cppQuantFi.dir/src/statistics.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/statistics.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/statistics.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp -o CMakeFiles/cppQuantFi.dir/src/statistics.cpp.s
+
 # Object files for target cppQuantFi
 cppQuantFi_OBJECTS = \
 "CMakeFiles/cppQuantFi.dir/src/intro.cpp.o" \
@@ -235,7 +263,9 @@ cppQuantFi_OBJECTS = \
 "CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/src/pathGeneration.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/src/asian.cpp.o" \
-"CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o"
+"CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o"
 
 # External object files for target cppQuantFi
 cppQuantFi_EXTERNAL_OBJECTS =
@@ -251,9 +281,11 @@ libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/pathGeneration.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/asian.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/build.make
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libcppQuantFi.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library libcppQuantFi.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppQuantFi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

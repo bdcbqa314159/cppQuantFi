@@ -247,6 +247,10 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/cppQuantFi_bits/bsCall.hpp \
   /usr/local/include/cppQuantFi_bits/intervalBisection.hpp \
   /usr/local/include/cppQuantFi_bits/newtonRaphson.hpp \
+  /usr/local/include/cppQuantFi_bits/random.hpp \
+  /usr/local/include/cppQuantFi_bits/linearCongruentialGenerator.hpp \
+  /usr/local/include/cppQuantFi_bits/./random.hpp \
+  /usr/local/include/cppQuantFi_bits/statistics.hpp \
   /usr/local/include/eigen3/Eigen/Dense \
   /usr/local/include/eigen3/Eigen/Core \
   /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \

@@ -516,6 +516,42 @@ int testingNewtonRaphson(){
     return 0;
 }
 
+int testingRandomModule(){
+    
+    unsigned long init_seed = 1;
+    unsigned long num_draws = 20;
+    std::vector<double> random_draws(num_draws, 0);
+    LinearCongruentialGenerator lcg(num_draws, init_seed);
+    lcg.get_uniform_draws(random_draws);
+    
+    for (unsigned long i=0; i<num_draws; i++){
+        std::cout<<random_draws.at(i)<<std::endl;
+    }
+    
+    return 0;
+}
+
+int testingNormalDistribution(){
+    
+    StandardNormalDistribution snd;
+    
+    std::vector<double> uniform_draws(20,0);
+    std::vector<double> normal_draws(20,0);
+    
+    for (int i=0; i<uniform_draws.size(); i++){
+        
+        uniform_draws.at(i) = rand()/static_cast<double>(RAND_MAX);
+    }
+    
+    snd.random_draws(uniform_draws, normal_draws);
+    
+    for (int i = 0; i<normal_draws.size(); i++){
+        std::cout<<normal_draws.at(i)<<std::endl;
+    }
+    
+    return 0;
+}
+
 int main() {
 //    testingVanillaOption();
 //    testingPayOffs();
@@ -536,6 +572,10 @@ int main() {
     //testingAsian();
     testingBisection();
     testingNewtonRaphson();
+    
+    testingRandomModule();
+    
+    testingNormalDistribution();
     
     return 0;
 }

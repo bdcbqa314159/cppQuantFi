@@ -270,6 +270,30 @@ src/intro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/intro.cpp.s
 .PHONY : src/intro.cpp.s
 
+src/linearCongruentialGenerator.o: src/linearCongruentialGenerator.cpp.o
+.PHONY : src/linearCongruentialGenerator.o
+
+# target to build an object file
+src/linearCongruentialGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o
+.PHONY : src/linearCongruentialGenerator.cpp.o
+
+src/linearCongruentialGenerator.i: src/linearCongruentialGenerator.cpp.i
+.PHONY : src/linearCongruentialGenerator.i
+
+# target to preprocess a source file
+src/linearCongruentialGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.i
+.PHONY : src/linearCongruentialGenerator.cpp.i
+
+src/linearCongruentialGenerator.s: src/linearCongruentialGenerator.cpp.s
+.PHONY : src/linearCongruentialGenerator.s
+
+# target to generate assembly for a file
+src/linearCongruentialGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.s
+.PHONY : src/linearCongruentialGenerator.cpp.s
+
 src/norm.o: src/norm.cpp.o
 .PHONY : src/norm.o
 
@@ -390,6 +414,30 @@ src/payoffPut.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.s
 .PHONY : src/payoffPut.cpp.s
 
+src/statistics.o: src/statistics.cpp.o
+.PHONY : src/statistics.o
+
+# target to build an object file
+src/statistics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o
+.PHONY : src/statistics.cpp.o
+
+src/statistics.i: src/statistics.cpp.i
+.PHONY : src/statistics.i
+
+# target to preprocess a source file
+src/statistics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/statistics.cpp.i
+.PHONY : src/statistics.cpp.i
+
+src/statistics.s: src/statistics.cpp.s
+.PHONY : src/statistics.s
+
+# target to generate assembly for a file
+src/statistics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/statistics.cpp.s
+.PHONY : src/statistics.cpp.s
+
 src/thomasAlgorithm.o: src/thomasAlgorithm.cpp.o
 .PHONY : src/thomasAlgorithm.o
 
@@ -463,6 +511,9 @@ help:
 	@echo "... src/intro.o"
 	@echo "... src/intro.i"
 	@echo "... src/intro.s"
+	@echo "... src/linearCongruentialGenerator.o"
+	@echo "... src/linearCongruentialGenerator.i"
+	@echo "... src/linearCongruentialGenerator.s"
 	@echo "... src/norm.o"
 	@echo "... src/norm.i"
 	@echo "... src/norm.s"
@@ -478,6 +529,9 @@ help:
 	@echo "... src/payoffPut.o"
 	@echo "... src/payoffPut.i"
 	@echo "... src/payoffPut.s"
+	@echo "... src/statistics.o"
+	@echo "... src/statistics.i"
+	@echo "... src/statistics.s"
 	@echo "... src/thomasAlgorithm.o"
 	@echo "... src/thomasAlgorithm.i"
 	@echo "... src/thomasAlgorithm.s"

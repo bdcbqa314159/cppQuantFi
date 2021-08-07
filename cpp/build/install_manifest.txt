@@ -1,6 +1,7 @@
 /usr/local/lib/libcppQuantFi.dylib
 /usr/local/include/cppQuantFi
 /usr/local/include/cppQuantFi_bits/newtonRaphson.hpp
+/usr/local/include/cppQuantFi_bits/linearCongruentialGenerator.hpp
 /usr/local/include/cppQuantFi_bits/.DS_Store
 /usr/local/include/cppQuantFi_bits/pathGeneration.hpp
 /usr/local/include/cppQuantFi_bits/vanillaOption.hpp
@@ -12,6 +13,8 @@
 /usr/local/include/cppQuantFi_bits/payoff.hpp
 /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp
 /usr/local/include/cppQuantFi_bits/eurOptionBSMC.hpp
+/usr/local/include/cppQuantFi_bits/random.hpp
+/usr/local/include/cppQuantFi_bits/statistics.hpp
 /usr/local/include/cppQuantFi_bits/norm.hpp
 /usr/local/include/cppQuantFi_bits/thomasAlgorithm.hpp
 /usr/local/include/cppQuantFi_bits/intervalBisection.hpp

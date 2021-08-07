@@ -18,6 +18,10 @@
 #include "cppQuantFi_bits/bsCall.hpp"
 #include "cppQuantFi_bits/intervalBisection.hpp"
 #include "cppQuantFi_bits/newtonRaphson.hpp"
+#include "cppQuantFi_bits/random.hpp"
+#include "cppQuantFi_bits/linearCongruentialGenerator.hpp"
+#include "cppQuantFi_bits/statistics.hpp"
+
 #include <eigen3/Eigen/Dense>
 #include <eigen3/Eigen/LU>
 

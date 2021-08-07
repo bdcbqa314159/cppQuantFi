@@ -552,6 +552,29 @@ int testingNormalDistribution(){
     return 0;
 }
 
+int testingBSJD(){
+    
+    double S=100;
+    double K=100;
+    
+    double r = 0.05;
+    double v = 0.2;
+    double T = 1.;
+    
+    int N=50;
+    
+    double m = 1.083287;
+    double lambda = 1.;
+    double nu = 0.4;
+    
+    double call_jd = bs_jd_call_price(S,K,r,v,T,N,m,lambda,nu);
+    
+    std::cout<<"Call price under JD "<<call_jd<<std::endl;
+    
+    
+    return 0;
+}
+
 int main() {
 //    testingVanillaOption();
 //    testingPayOffs();
@@ -560,22 +583,20 @@ int main() {
 //    testingQSMatrix();
 //    testingEigen();
 //    testingEigenLU();
-//
 //    testingThomasAlgorithm();
 //    testingEigenCholesky();
 //    testingEigenQR();
 //    testingEurOptBS();
 //    testingEurOptMC();
+//    testingEurOptGreeksBS();
+//    testing_call_GreeksMC();
+//    testingAsian();
+//    testingBisection();
+//    testingNewtonRaphson();
+//    testingRandomModule();
+//    testingNormalDistribution();
     
-    //testingEurOptGreeksBS();
-    //testing_call_GreeksMC();
-    //testingAsian();
-    testingBisection();
-    testingNewtonRaphson();
-    
-    testingRandomModule();
-    
-    testingNormalDistribution();
+    testingBSJD();
     
     return 0;
 }

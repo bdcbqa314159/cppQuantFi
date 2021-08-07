@@ -11,6 +11,32 @@ double call_price(const double &S, const double &K, const double &r, const doubl
     return S*N(d_j(1,S,K,r,v,T))-K*exp(-r*T)*N(d_j(2,S,K,r,v,T));
 }
 
+double bs_jd_call_price(const double& S, const double& K, const double& r, const double& sigma, const double& T, const int& N, const double& m, const double& lambda, const double& nu){
+    
+    
+    double price = 0;
+    double factorial = 1.;
+    
+    double lambda_p = lambda*m;
+    double lambda_p_T = lambda_p*T;
+    
+    for (int n=0; n<N; n++){
+        double sigma_n = sqrt(sigma*sigma+n*nu*nu/T);
+        double r_n = r-lambda*(m-1)+n*log(m)/T;
+        
+        if (n==0) factorial *=1;
+        else factorial*=n;
+        
+        price += ((exp(-lambda_p_T)*pow(lambda_p_T,n))/factorial)*call_price(S,K,r_n,sigma_n,T);
+    }
+    
+    return price;
+}
+
+
+
+
+
 double call_delta(const double &S, const double &K, const double &r, const double &v, const double &T){
     
     return N(d_j(1,S,K,r,v,T));

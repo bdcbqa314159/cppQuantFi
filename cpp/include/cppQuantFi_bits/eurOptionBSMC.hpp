@@ -8,6 +8,8 @@ double d_j(const int &j, const double &S, const double &K, const double &r, cons
 
 double call_price(const double &S, const double &K, const double &r, const double &v, const double &T);
 
+double bs_jd_call_price(const double& S, const double& K, const double& r, const double& sigma, const double& T, const int& N, const double& m, const double& lambda, const double& nu);
+
 
 double monte_carlo_call_price(const int &num_sims, const double &S, const double &K, const double &r, const double &v, const double &T);
 

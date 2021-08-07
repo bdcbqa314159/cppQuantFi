@@ -252,6 +252,7 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/cppQuantFi_bits/random.hpp \
   /usr/local/include/cppQuantFi_bits/linearCongruentialGenerator.hpp \
   /usr/local/include/cppQuantFi_bits/random.hpp \
+  /usr/local/include/cppQuantFi_bits/statistics.hpp \
   /usr/local/include/eigen3/Eigen/Dense \
   /usr/local/include/eigen3/Eigen/Core \
   /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -636,10 +637,6 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /usr/local/include/eigen3/Eigen/src/Core/EigenBase.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h:
-
-/usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/nl_types.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
@@ -715,6 +712,12 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /usr/local/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h:
+
+/usr/local/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h:
+
+/usr/local/include/cppQuantFi_bits/statistics.hpp:
 
 /usr/local/include/cppQuantFi_bits/newtonRaphson.hpp:
 

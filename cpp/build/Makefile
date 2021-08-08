@@ -270,6 +270,30 @@ src/eurOptionBSMC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.s
 .PHONY : src/eurOptionBSMC.cpp.s
 
+src/fdm.o: src/fdm.cpp.o
+.PHONY : src/fdm.o
+
+# target to build an object file
+src/fdm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/fdm.cpp.o
+.PHONY : src/fdm.cpp.o
+
+src/fdm.i: src/fdm.cpp.i
+.PHONY : src/fdm.i
+
+# target to preprocess a source file
+src/fdm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/fdm.cpp.i
+.PHONY : src/fdm.cpp.i
+
+src/fdm.s: src/fdm.cpp.s
+.PHONY : src/fdm.s
+
+# target to generate assembly for a file
+src/fdm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/fdm.cpp.s
+.PHONY : src/fdm.cpp.s
+
 src/hestonMC.o: src/hestonMC.cpp.o
 .PHONY : src/hestonMC.o
 
@@ -486,6 +510,30 @@ src/payoffPut.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/payoffPut.cpp.s
 .PHONY : src/payoffPut.cpp.s
 
+src/pde.o: src/pde.cpp.o
+.PHONY : src/pde.o
+
+# target to build an object file
+src/pde.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/pde.cpp.o
+.PHONY : src/pde.cpp.o
+
+src/pde.i: src/pde.cpp.i
+.PHONY : src/pde.i
+
+# target to preprocess a source file
+src/pde.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/pde.cpp.i
+.PHONY : src/pde.cpp.i
+
+src/pde.s: src/pde.cpp.s
+.PHONY : src/pde.s
+
+# target to generate assembly for a file
+src/pde.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/pde.cpp.s
+.PHONY : src/pde.cpp.s
+
 src/statistics.o: src/statistics.cpp.o
 .PHONY : src/statistics.o
 
@@ -583,6 +631,9 @@ help:
 	@echo "... src/eurOptionBSMC.o"
 	@echo "... src/eurOptionBSMC.i"
 	@echo "... src/eurOptionBSMC.s"
+	@echo "... src/fdm.o"
+	@echo "... src/fdm.i"
+	@echo "... src/fdm.s"
 	@echo "... src/hestonMC.o"
 	@echo "... src/hestonMC.i"
 	@echo "... src/hestonMC.s"
@@ -610,6 +661,9 @@ help:
 	@echo "... src/payoffPut.o"
 	@echo "... src/payoffPut.i"
 	@echo "... src/payoffPut.s"
+	@echo "... src/pde.o"
+	@echo "... src/pde.i"
+	@echo "... src/pde.s"
 	@echo "... src/statistics.o"
 	@echo "... src/statistics.i"
 	@echo "... src/statistics.s"

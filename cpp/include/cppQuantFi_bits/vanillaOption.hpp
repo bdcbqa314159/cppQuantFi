@@ -1,6 +1,8 @@
 #ifndef VANILLAOPTION_H
 #define VANILLAOPTION_H
 
+#include "./option.hpp"
+
 class VanillaOption{
 private:
     
@@ -30,6 +32,23 @@ public:
     
     double calc_call_price() const;
     double calc_put_price() const;
+};
+
+class VanillaOpt{
+    
+public:
+    PayOff* pay_off;
+    
+    double K;
+    double r;
+    double sigma;
+    double T;
+    
+    VanillaOpt();
+    VanillaOpt(double K, double r, double T, double sigma, PayOff* pay_off);
+    
+    virtual ~VanillaOpt();
+    
 };
 
 

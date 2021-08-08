@@ -92,5 +92,19 @@ double VanillaOption::calc_put_price() const{
 }
 
 
+VanillaOpt::VanillaOpt(){
+    
+}
+
+VanillaOpt::VanillaOpt(double K, double r, double T, double sigma, PayOff* pay_off)
+:K(K), r(r), T(T), sigma(sigma), pay_off(pay_off){
+    
+}
+
+VanillaOpt::~VanillaOpt(){
+    
+
+}
+
 
 

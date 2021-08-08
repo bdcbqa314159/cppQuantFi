@@ -643,8 +643,40 @@ int testistingHestonEuler(){
         payoff_sum += pOption->pay_off->operator()(spot_prices[num_intervals-1]);
     }
     
+    
     double option_price = (payoff_sum/static_cast<double>(num_sims))*exp(-r*T);
     std::cout<<"Option price: "<<option_price<<std::endl;
+    
+    delete pPayOffCall;
+    delete pOption;
+    
+    return 0;
+}
+
+int testingBSPDE(){
+    
+    double K = 0.5;
+    double r = 0.05;
+    double v = 0.2;
+    double T = 1.;
+    
+    double x_dom = 1.;
+    unsigned long J = 20;
+    double t_dom = T;
+    unsigned long N = 20;
+    
+    PayOff* pay_off_call = new PayOffCall(K);
+    VanillaOpt* call_option = new VanillaOpt(K,r,T,v,pay_off_call);
+    
+    BlackScholesPDE* bs_pde = new BlackScholesPDE(call_option);
+    
+    FDMEulerExplicit fdm_euler(x_dom, J, t_dom, N, bs_pde);
+    
+    fdm_euler.step_march();
+    
+    delete bs_pde;
+    delete call_option;
+    delete pay_off_call;
     
     return 0;
 }
@@ -674,5 +706,7 @@ int main() {
 //    testingCorrelationSND();
 //    testistingHestonEuler();
     
+    testingBSPDE();
+    std::cout<<"This is the End -> just like the Looney Tunes :P"<<std::endl;
     return 0;
 }

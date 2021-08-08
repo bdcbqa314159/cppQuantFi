@@ -41,6 +41,8 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/correlatedSND.hpp
     ${PROJECT_INCLUDE_DIR}/option.hpp
     ${PROJECT_INCLUDE_DIR}/hestonMC.hpp
+    ${PROJECT_INCLUDE_DIR}/pde.hpp
+    ${PROJECT_INCLUDE_DIR}/fdm.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
     ${PROJECT_SOURCE_DIR}/vanillaOption.cpp
@@ -58,6 +60,8 @@ set(SOURCE_FILES
     ${PROJECT_SOURCE_DIR}/correlatedSND.cpp
     ${PROJECT_SOURCE_DIR}/option.cpp
     ${PROJECT_SOURCE_DIR}/hestonMC.cpp
+    ${PROJECT_SOURCE_DIR}/pde.cpp
+    ${PROJECT_SOURCE_DIR}/fdm.cpp
 )
 
 # Set up such that XCode organizes the files correctly

@@ -229,9 +229,10 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
   /usr/local/include/cppQuantFi_bits/vanillaOption.hpp \
+  /usr/local/include/cppQuantFi_bits/./option.hpp \
+  /usr/local/include/cppQuantFi_bits/./payoff.hpp \
   /usr/local/include/cppQuantFi_bits/payoff.hpp \
   /usr/local/include/cppQuantFi_bits/payoffCall.hpp \
-  /usr/local/include/cppQuantFi_bits/./payoff.hpp \
   /usr/local/include/cppQuantFi_bits/payoffPut.hpp \
   /usr/local/include/cppQuantFi_bits/payoffDoubleDigital.hpp \
   /usr/local/include/cppQuantFi_bits/matrix.hpp \
@@ -255,7 +256,10 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/cppQuantFi_bits/./statistics.hpp \
   /usr/local/include/cppQuantFi_bits/option.hpp \
   /usr/local/include/cppQuantFi_bits/hestonMC.hpp \
-  /usr/local/include/cppQuantFi_bits/./option.hpp \
+  /usr/local/include/cppQuantFi_bits/pde.hpp \
+  /usr/local/include/cppQuantFi_bits/./vanillaOption.hpp \
+  /usr/local/include/cppQuantFi_bits/fdm.hpp \
+  /usr/local/include/cppQuantFi_bits/./pde.hpp \
   /usr/local/include/eigen3/Eigen/Dense \
   /usr/local/include/eigen3/Eigen/Core \
   /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \

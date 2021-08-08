@@ -6,6 +6,8 @@
 /usr/local/include/cppQuantFi_bits/pathGeneration.hpp
 /usr/local/include/cppQuantFi_bits/vanillaOption.hpp
 /usr/local/include/cppQuantFi_bits/functors.hpp
+/usr/local/include/cppQuantFi_bits/option.hpp
+/usr/local/include/cppQuantFi_bits/hestonMC.hpp
 /usr/local/include/cppQuantFi_bits/payoffPut.hpp
 /usr/local/include/cppQuantFi_bits/qsMatrix.hpp
 /usr/local/include/cppQuantFi_bits/matrix.hpp
@@ -18,6 +20,7 @@
 /usr/local/include/cppQuantFi_bits/norm.hpp
 /usr/local/include/cppQuantFi_bits/thomasAlgorithm.hpp
 /usr/local/include/cppQuantFi_bits/intervalBisection.hpp
+/usr/local/include/cppQuantFi_bits/correlatedSND.hpp
 /usr/local/include/cppQuantFi_bits/payoffCall.hpp
 /usr/local/include/cppQuantFi_bits/asian.hpp
 /usr/local/include/cppQuantFi_bits/bsCall.hpp

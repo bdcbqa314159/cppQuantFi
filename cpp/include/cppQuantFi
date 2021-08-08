@@ -21,6 +21,9 @@
 #include "cppQuantFi_bits/random.hpp"
 #include "cppQuantFi_bits/linearCongruentialGenerator.hpp"
 #include "cppQuantFi_bits/statistics.hpp"
+#include "cppQuantFi_bits/correlatedSND.hpp"
+#include "cppQuantFi_bits/option.hpp"
+#include "cppQuantFi_bits/hestonMC.hpp"
 
 #include <eigen3/Eigen/Dense>
 #include <eigen3/Eigen/LU>

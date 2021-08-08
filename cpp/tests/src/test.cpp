@@ -575,6 +575,80 @@ int testingBSJD(){
     return 0;
 }
 
+int testingCorrelationSND(){
+    
+    int vals = 30;
+    
+    StandardNormalDistribution snd;
+    std::vector<double> snd_uniform_draws(vals, 0);
+    std::vector<double> snd_normal_draws(vals, 0);
+    
+    for (int i=0; i<snd_uniform_draws.size(); i++){
+        snd_uniform_draws.at(i) = rand()/static_cast<double>(RAND_MAX);
+    }
+    
+    snd.random_draws(snd_uniform_draws, snd_normal_draws);
+    
+    double rho = 0.5;
+    
+    CorrelatedSND csnd(rho, &snd_normal_draws);
+    std::vector<double> csnd_uniform_draws(vals, 0);
+    std::vector<double> csnd_normal_draws(vals, 0);
+    
+    for (int i=0; i<snd_uniform_draws.size(); i++){
+        csnd_uniform_draws.at(i) = rand()/static_cast<double>(RAND_MAX);
+    }
+    
+    csnd.random_draws(csnd_uniform_draws, csnd_normal_draws);
+    
+    for (int i=0; i<csnd_normal_draws.size(); i++){
+        std::cout<<snd_normal_draws.at(i)<<", "<<csnd_normal_draws.at(i)<<std::endl;
+    }
+    return 0;
+}
+
+int testistingHestonEuler(){
+    
+    unsigned num_sims = 100000;
+    unsigned num_intervals = 1000;
+    
+    double S_0 = 100;
+    double K = 100;
+    double r = 0.0319;
+    double v_0 = 0.010201;
+    double T = 1.;
+    
+    double rho = -0.7;
+    double kappa = 6.21;
+    double theta = 0.019;
+    double xi = 0.61;
+    
+    PayOff* pPayOffCall = new PayOffCall(K);
+    Option* pOption = new Option(K,r,T,pPayOffCall);
+    
+    HestonEuler hest_euler(pOption, kappa, theta, xi, rho);
+    
+    std::vector<double> spot_draws(num_intervals,0.);
+    std::vector<double> vol_draws(num_intervals,0.);
+    std::vector<double> spot_prices(num_intervals,S_0);
+    std::vector<double> vol_prices(num_intervals,v_0);
+    
+    double payoff_sum = 0.;
+    
+    for (unsigned i = 0; i<num_sims; i++){
+        std::cout<<"Calculating path "<<i+1<<" of "<<num_sims<<std::endl;
+        generate_normal_correlation_paths(rho, spot_draws, vol_draws);
+        hest_euler.calc_vol_path(vol_draws, vol_prices);
+        hest_euler.calc_spot_path(spot_draws, vol_prices, spot_prices);
+        payoff_sum += pOption->pay_off->operator()(spot_prices[num_intervals-1]);
+    }
+    
+    double option_price = (payoff_sum/static_cast<double>(num_sims))*exp(-r*T);
+    std::cout<<"Option price: "<<option_price<<std::endl;
+    
+    return 0;
+}
+
 int main() {
 //    testingVanillaOption();
 //    testingPayOffs();
@@ -596,7 +670,9 @@ int main() {
 //    testingRandomModule();
 //    testingNormalDistribution();
     
-    testingBSJD();
+//    testingBSJD();
+//    testingCorrelationSND();
+//    testistingHestonEuler();
     
     return 0;
 }

@@ -222,6 +222,30 @@ src/bsCall.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.s
 .PHONY : src/bsCall.cpp.s
 
+src/correlatedSND.o: src/correlatedSND.cpp.o
+.PHONY : src/correlatedSND.o
+
+# target to build an object file
+src/correlatedSND.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o
+.PHONY : src/correlatedSND.cpp.o
+
+src/correlatedSND.i: src/correlatedSND.cpp.i
+.PHONY : src/correlatedSND.i
+
+# target to preprocess a source file
+src/correlatedSND.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.i
+.PHONY : src/correlatedSND.cpp.i
+
+src/correlatedSND.s: src/correlatedSND.cpp.s
+.PHONY : src/correlatedSND.s
+
+# target to generate assembly for a file
+src/correlatedSND.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.s
+.PHONY : src/correlatedSND.cpp.s
+
 src/eurOptionBSMC.o: src/eurOptionBSMC.cpp.o
 .PHONY : src/eurOptionBSMC.o
 
@@ -245,6 +269,30 @@ src/eurOptionBSMC.s: src/eurOptionBSMC.cpp.s
 src/eurOptionBSMC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/eurOptionBSMC.cpp.s
 .PHONY : src/eurOptionBSMC.cpp.s
+
+src/hestonMC.o: src/hestonMC.cpp.o
+.PHONY : src/hestonMC.o
+
+# target to build an object file
+src/hestonMC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o
+.PHONY : src/hestonMC.cpp.o
+
+src/hestonMC.i: src/hestonMC.cpp.i
+.PHONY : src/hestonMC.i
+
+# target to preprocess a source file
+src/hestonMC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.i
+.PHONY : src/hestonMC.cpp.i
+
+src/hestonMC.s: src/hestonMC.cpp.s
+.PHONY : src/hestonMC.s
+
+# target to generate assembly for a file
+src/hestonMC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.s
+.PHONY : src/hestonMC.cpp.s
 
 src/intro.o: src/intro.cpp.o
 .PHONY : src/intro.o
@@ -317,6 +365,30 @@ src/norm.s: src/norm.cpp.s
 src/norm.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/norm.cpp.s
 .PHONY : src/norm.cpp.s
+
+src/option.o: src/option.cpp.o
+.PHONY : src/option.o
+
+# target to build an object file
+src/option.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/option.cpp.o
+.PHONY : src/option.cpp.o
+
+src/option.i: src/option.cpp.i
+.PHONY : src/option.i
+
+# target to preprocess a source file
+src/option.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/option.cpp.i
+.PHONY : src/option.cpp.i
+
+src/option.s: src/option.cpp.s
+.PHONY : src/option.s
+
+# target to generate assembly for a file
+src/option.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cppQuantFi.dir/build.make CMakeFiles/cppQuantFi.dir/src/option.cpp.s
+.PHONY : src/option.cpp.s
 
 src/pathGeneration.o: src/pathGeneration.cpp.o
 .PHONY : src/pathGeneration.o
@@ -505,9 +577,15 @@ help:
 	@echo "... src/bsCall.o"
 	@echo "... src/bsCall.i"
 	@echo "... src/bsCall.s"
+	@echo "... src/correlatedSND.o"
+	@echo "... src/correlatedSND.i"
+	@echo "... src/correlatedSND.s"
 	@echo "... src/eurOptionBSMC.o"
 	@echo "... src/eurOptionBSMC.i"
 	@echo "... src/eurOptionBSMC.s"
+	@echo "... src/hestonMC.o"
+	@echo "... src/hestonMC.i"
+	@echo "... src/hestonMC.s"
 	@echo "... src/intro.o"
 	@echo "... src/intro.i"
 	@echo "... src/intro.s"
@@ -517,6 +595,9 @@ help:
 	@echo "... src/norm.o"
 	@echo "... src/norm.i"
 	@echo "... src/norm.s"
+	@echo "... src/option.o"
+	@echo "... src/option.i"
+	@echo "... src/option.s"
 	@echo "... src/pathGeneration.o"
 	@echo "... src/pathGeneration.i"
 	@echo "... src/pathGeneration.s"

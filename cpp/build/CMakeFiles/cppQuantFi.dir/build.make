@@ -251,6 +251,48 @@ CMakeFiles/cppQuantFi.dir/src/statistics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/statistics.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/statistics.cpp -o CMakeFiles/cppQuantFi.dir/src/statistics.cpp.s
 
+CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o: ../src/correlatedSND.cpp
+CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/correlatedSND.cpp
+
+CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/correlatedSND.cpp > CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/correlatedSND.cpp -o CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.s
+
+CMakeFiles/cppQuantFi.dir/src/option.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/option.cpp.o: ../src/option.cpp
+CMakeFiles/cppQuantFi.dir/src/option.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cppQuantFi.dir/src/option.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/option.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/option.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/option.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/option.cpp
+
+CMakeFiles/cppQuantFi.dir/src/option.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/option.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/option.cpp > CMakeFiles/cppQuantFi.dir/src/option.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/option.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/option.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/option.cpp -o CMakeFiles/cppQuantFi.dir/src/option.cpp.s
+
+CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o: CMakeFiles/cppQuantFi.dir/flags.make
+CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o: ../src/hestonMC.cpp
+CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o: CMakeFiles/cppQuantFi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o -MF CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o.d -o CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o -c /Users/bernardocohen/repos/cppQuantFi/cpp/src/hestonMC.cpp
+
+CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bernardocohen/repos/cppQuantFi/cpp/src/hestonMC.cpp > CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.i
+
+CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bernardocohen/repos/cppQuantFi/cpp/src/hestonMC.cpp -o CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.s
+
 # Object files for target cppQuantFi
 cppQuantFi_OBJECTS = \
 "CMakeFiles/cppQuantFi.dir/src/intro.cpp.o" \
@@ -265,7 +307,10 @@ cppQuantFi_OBJECTS = \
 "CMakeFiles/cppQuantFi.dir/src/asian.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o" \
 "CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o" \
-"CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o"
+"CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/option.cpp.o" \
+"CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o"
 
 # External object files for target cppQuantFi
 cppQuantFi_EXTERNAL_OBJECTS =
@@ -283,9 +328,12 @@ libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/asian.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/bsCall.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/linearCongruentialGenerator.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/statistics.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/correlatedSND.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/option.cpp.o
+libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/src/hestonMC.cpp.o
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/build.make
 libcppQuantFi.dylib: CMakeFiles/cppQuantFi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX shared library libcppQuantFi.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bernardocohen/repos/cppQuantFi/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libcppQuantFi.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppQuantFi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
